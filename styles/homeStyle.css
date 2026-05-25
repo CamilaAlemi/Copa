@@ -114,16 +114,16 @@
   color: white;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  padding-left: 3.5rem;
+  padding: 2rem 3.5rem;
 }
 
 #master #topo #banner #grupoBannerC #descGrupoBanner #tituloBanner {
-  font-size: 7rem;
+  font-size: clamp(2px,7vw, 9rem);
 }
 
 #master #topo #banner #grupoBannerC #descGrupoBanner #nomesPaisesBanner {
   width: 100px;
-  font-size: 13px;
+  font-size: clamp(0.2px, 3vw, 13px);
 }
 
 #master #copaContainer {
