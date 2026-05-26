@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: titulos;
+  src: url(../assets/fontes/Michroma-Regular.ttf);
+}
+
+@font-face {
+  font-family: textos;
+  src: url(../assets/fontes/Metrophobic-Regular.ttf);
+}
+
+#master {
+  font-family: titulos;
+}
+
+#master a {
+  text-decoration: none;
+}
+
+#master #menu {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.267);
+  backdrop-filter: blur(10px);
+}
+
+#master #menu a {
+  color: white;
+  font-size: 20px;
+}
+
+#master #grupos {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  z-index: -1;
+}
+
+#master #grupos .grupo{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+}
+
+#master #grupos .grupo #grupoBannerC #linhasDecorativas {
+  width: 100%;
+  height: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#master #grupos .grupo #grupoBannerC #linhasDecorativas #linhaMaior {
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-left: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #tituloBanner {
+  font-size: clamp(3rem,7vw, 9rem);
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #nomesPaisesBanner {
+  width: 100px;
+  font-size: 13px;
+}
+
+#master #grupos #gA{
+  background-image: url(../assets/imgs/grupoABanner.png);
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+
+#master #grupos #gC{
+  background-image: url(../assets/imgs/grupoCBanner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#master #grupos #gG{
+  background-image: url(../assets/imgs/grupoGBanner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#master #grupos #gJ{
+  background-image: url(../assets/imgs/grupoJBanner.png);
+  background-position: center;
+  background-size: cover;
+}

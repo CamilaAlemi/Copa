@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: titulos;
+  src: url(../assets/fontes/Michroma-Regular.ttf);
+}
+
+@font-face {
+  font-family: textos;
+  src: url(../assets/fontes/Metrophobic-Regular.ttf);
+}
+
+#master {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  font-family: titulos;
+}
+
+#master .titulos {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#master a {
+  text-decoration: none;
+}
+
+#master #topo {
+  position: relative;
+  width: 100%;
+  height: 93vh;
+  display: flex;
+}
+
+#master button {
+  border: 0;
+  background-color: transparent;
+}
+
+#master #topo #menu {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.267);
+  backdrop-filter: blur(10px);
+}
+
+#master #topo #menu a {
+  color: white;
+  font-size: 20px;
+}
+
+#master #topo #banner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(66, 66, 66, 0.352);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 4rem;
+}
+
+#master #topo #banner #botoesBanner {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#master #topo #banner #botoesBanner button {
+  font-family: textos;
+  color: white;
+  font-size: 16px;
+}
+
+#master #topo #banner #grupoBannerC {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#master #topo #banner #grupoBannerC #linhasDecorativas {
+  width: 100%;
+  height: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#master #topo #banner #grupoBannerC #linhasDecorativas #linhaMaior {
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#master #topo #banner #grupoBannerC #descGrupoBanner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 2rem 3.5rem;
+}
+
+#master #topo #banner #grupoBannerC #descGrupoBanner #tituloBanner {
+  font-size: clamp(2px,7vw, 9rem);
+}
+
+#master #topo #banner #grupoBannerC #descGrupoBanner #nomesPaisesBanner {
+  width: 100px;
+  font-size: clamp(0.2px, 3vw, 13px);
+}
+
+#master #copaContainer {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#master #copaContainer #textosCopa {
+  font-family: textos;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#master #paisesSedesContainer {
+  width: 80%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+#master #paisesSedesContainer #paisesSede {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+#master #paisesSedesContainer #paisesSede .paisSede {
+  width: 330px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#master #paisesSedesContainer #paisesSede .paisSede img {
+  width: 65%;
+  height: 40%;
+  background-color: antiquewhite;
+}
+
+#master #paisesSedesContainer #paisesSede .paisSede a {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-size: 13px;
+  border-radius: 50px;
+}
+
+#master #estadiosContainer {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+#master #estadiosContainer #slideEstados {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#master #estadiosContainer #slideEstados button img {
+  width: 20px;
+  height: 40px;
+}
+
+#master #estadiosContainer #slideEstados #estadios {
+  width: 80%;
+  max-width: 85%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+#master #estadiosContainer #slideEstados #estadios .estadio {
+  min-width: 300px;
+  width: 450px;
+  max-width: 600px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(137, 137, 137);
+}
+
+#master #estadiosContainer #slideEstados #estadios .estadio > img {
+  width: 90%;
+  max-width: 400px;
+  height: 45%;
+  background-color: white;
+}
+
+#master #estadiosContainer #slideEstados #estadios .estadio .descEstadio {
+  width: 88%;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .localEstadio {
+  display: flex;
+  color: #b7b7b7;
+  font-family: textos;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .localEstadio
+  img {
+  width: 24px;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  font-family: textos;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau
+  .linhaSeparacao {
+  width: 1px;
+  height: 40px;
+  background-color: black;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau
+  > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau
+  > div
+  img {
+  width: 30px;
+  height: 30px;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau
+  > div
+  .textoCI {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#master
+  #estadiosContainer
+  #slideEstados
+  #estadios
+  .estadio
+  .descEstadio
+  .capInau
+  > div
+  .textoCI
+  p:nth-child(2) {
+  font-size: 20px;
+}
+
+#master #vitoriasContainer {
+  width: 80%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+#master #vitoriasContainer #classificacao {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+#master #vitoriasContainer #classificacao .paisVitoria {
+  width: 28%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #FFFCB2;
+}
+
+#master #vitoriasContainer #classificacao .paisVitoria img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #b7b7b7;
+}
+
+#master #vitoriasContainer #classificacao .paisVitoria .nomePaisV {
+  margin-top: 2rem;
+  font-size: 28px;
+}
+
+#master #vitoriasContainer #classificacao .paisVitoria .vitorias{
+  margin-top: 1rem;
+}
+
+#master #vitoriasContainer #classificacao .prata {
+  height: 55vh;
+  background-color: #A4A2A22E;
+  border: 2px solid #8A8888
+}
+
+#master #vitoriasContainer #classificacao .bronze {
+  height: 45vh;
+  background-color: #D48E388C;
+  border: 2px solid #6C400A8C;
+}
+
+#rodape {
+  width: 100%;
+  height: 40vh;
+  margin-top: 2rem;
+  background-color: antiquewhite;
+}
