@@ -2,11 +2,21 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: textos;
 }
 
 body{
     background:#f7f7f7;
+}
+
+@font-face {
+  font-family: titulos;
+  src: url(../assets/fontes/Michroma-Regular.ttf);
+}
+
+@font-face {
+  font-family: textos;
+  src: url(../assets/fontes/Metrophobic-Regular.ttf);
 }
 
 
@@ -21,7 +31,7 @@ body{
 
 .titulo{
     color:rgb(0, 0, 0);
-
+    font-family:titulos;
     font-size:clamp(4rem,9vw,8rem);
 
     font-weight:300;
@@ -44,6 +54,7 @@ body{
     justify-content: center;
     gap: 70px;
     padding: 20px 0;
+    
    
 }
 #cultura{
@@ -64,7 +75,7 @@ body{
     border:none;
 
     cursor:pointer;
-
+    font-family: titulos;
     font-size:16px;
 
     letter-spacing:1px;
@@ -121,7 +132,7 @@ padding-top: 5rem;
 .titulo2{
     text-align:center;
     font-size:3rem;
-
+font-family: titulos;
     font-weight:400;
 
     color:#151515;
@@ -369,7 +380,7 @@ margin-top: 1rem;
 }
 .titulo-historia{
     font-size:3rem;
-
+    font-family: titulos;
     line-height:1;
 
     margin-bottom:20px;
@@ -379,13 +390,14 @@ margin-top: 1rem;
     font-weight:400;
 }
 
+
 .cor-pais{
     color:#2f7d54;
+    font-family: titulos;
 }
 
 .texto-historia{
     color:#444;
-
     line-height:1.7;
   font-size: 18px;
 }
@@ -404,6 +416,7 @@ margin-top: 1rem;
     color:#3d8a57;
     font-size:2.5rem;
     margin-bottom:8px;
+    font-family: titulos;
 }
 
 .texto-direita{
@@ -447,7 +460,7 @@ margin-top: 1rem;
 
 .titulo-momentos p{
     font-size:3rem;
-
+    font-family: titulos;
     color:#111;
 
     font-weight:400;
@@ -485,8 +498,8 @@ margin-top: 1rem;
 
 /*Numero lista tem que atualizar a cor conforme o país, checar o html pra ir mudando conforme o certo*/
 .numero-lista-brasil{
-    font-size:3rem;
-
+    font-size:2rem;
+    font-family: titulos;
     color:#0b6d39;
 }
 
@@ -543,7 +556,7 @@ margin-top: 1rem;
 
     line-height:1.1;
 
-    color:#151515;
+    font-family: titulos;
 
     margin-bottom:20px;
 }

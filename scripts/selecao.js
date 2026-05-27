@@ -5,7 +5,7 @@ const selecoes = {
 
         {
             codigo: "BRA - 012",
-            imagem: "../../imgs/Brasil/selecao/ederson_SB.jpg",
+            imagem: "../../assets/imgs/Brasil/selecao/ederson_SB.jpg",
             posicao: "GOLEIRO",
             nome: "Ederson",
             cidade: "Osasco, Brasil",
@@ -17,7 +17,7 @@ const selecoes = {
 
         {
             codigo: "BRA - 023",
-            imagem: "../../imgs/Brasil/selecao/weverton_SB.jpg",
+            imagem: "../assets/imgs/Brasil/selecao/weverton_SB.jpg",
             posicao: "GOLEIRO",
             nome: "Weverton",
             cidade: "Rio Branco, Brasil",
@@ -28,7 +28,7 @@ const selecoes = {
         },
         {
             codigo: "BRA - 001",
-            imagem: "../../imgs/Brasil/selecao/alisson_SB.jpg",
+            imagem: "../../assets/imgs/Brasil/selecao/alisson_SB.jpg",
             posicao: "GOLEIRO",
             nome: "Alisson",
             cidade: "Novo Hamburgo, Brasil",

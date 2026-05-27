@@ -3,25 +3,25 @@ const culturas = {
     brasil: [
 
         {
-            imagem: "../../imgs/Brasil/cultura/festas.webp",
+            imagem: "../../assets/imgs/Brasil/cultura/festas.webp",
 
             texto: "Festas tradicionais e roupas típicas fazem parte da identidade cultural brasileira."
         },
 
         {
-            imagem: "../../imgs/Brasil/cultura/samba.webp",
+            imagem: "../assets/imgs/Brasil/cultura/samba.jpg",
 
             texto: "O samba representa uma das manifestações culturais mais importantes do país."
         },
 
         {
-            imagem: "../../imgs/Brasil/cultura/influenciasculturas.jpg",
+            imagem: "../assets/imgs/Brasil/cultura/influenciasculturas.jpg",
 
             texto: "Influências indígenas, africanas e europeias aparecem na arquitetura e culinária."
         },
 
         {
-            imagem: "../../imgs/Brasil/cultura/brasil.jpg",
+            imagem: "../assets/imgs/Brasil/cultura/brasil.jpg",
 
             texto: "O futebol é uma das maiores paixões do povo brasileiro e faz parte da identidade cultural do país, influenciando costumes, linguagem e celebrações."
         },
