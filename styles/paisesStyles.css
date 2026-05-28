@@ -1,12 +1,12 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: textos;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: textos;
 }
 
-body{
-    background:#f7f7f7;
+body {
+  background: #f7f7f7;
 }
 
 @font-face {
@@ -19,613 +19,566 @@ body{
   src: url(../assets/fontes/Metrophobic-Regular.ttf);
 }
 
-
-.cabecario{
-    width:100%;
-    height:58vh;
-
-    display:flex;
-    align-items:center;
-    justify-content: center;
+#menu {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  position: fixed;
+  background-color: #15151527;
+  backdrop-filter: blur(10px);
 }
 
-.titulo{
-    color:rgb(0, 0, 0);
-    font-family:titulos;
-    font-size:clamp(4rem,9vw,8rem);
+a {
+  text-decoration: none;
+  font-family: titulos;
+  color: black;
+}
 
-    font-weight:300;
+.cabecario {
+  width: 100%;
+  height: 58vh;
 
-    line-height:0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    letter-spacing:2px;
+.titulo {
+  color: rgb(0, 0, 0);
+  font-family: titulos;
+  font-size: clamp(4rem, 9vw, 8rem);
+
+  font-weight: 300;
+
+  line-height: 0.9;
+
+  letter-spacing: 2px;
 }
 
 .corpo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menuP {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    padding: 20px 0;
-    
-   
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 20px 0;
 }
-#cultura{
-    width:min(980px,100%);
+#cultura {
+  width: min(980px, 100%);
 
-    display:flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 
-    gap:70px;
+  gap: 70px;
 
-    padding:clamp(30px,5vw,70px);
+  padding: clamp(30px, 5vw, 70px);
 }
 
+.menuP button {
+  background: none;
 
-.menuP button{
-    background:none;
+  border: none;
 
-    border:none;
+  cursor: pointer;
+  font-family: titulos;
+  font-size: 16px;
 
-    cursor:pointer;
-    font-family: titulos;
-    font-size:16px;
+  letter-spacing: 1px;
 
-    letter-spacing:1px;
+  color: #4d4d4d;
 
-    color:#4d4d4d;
-
-    position:relative;
+  position: relative;
 }
 
-.ativo{
-    color:#5d7f63;
+.ativo {
+  color: #5d7f63;
 }
 
-.ativo::after{
-    content:"";
+.ativo::after {
+  content: "";
 
-    width:100%;
-    height:1px;
+  width: 100%;
+  height: 1px;
 
-    background:#5d7f63;
+  background: #5d7f63;
 
-    position:absolute;
+  position: absolute;
 
-    left:0;
-    bottom:-6px;
+  left: 0;
+  bottom: -6px;
 }
 
+.resumo {
+  width: min(700px, 100%);
 
-.resumo{
-    width:min(700px,100%);
+  margin: auto;
 
-    margin:auto;
-
-    text-align:center;
+  text-align: center;
 }
 
-.textresumo{
-    color:#333;
-    line-height:1.8;
-    font-size:18px;
-}
-
-
-
-/* SELEÇÃO - CONSULTAR JS PARA ENTENDER MELHOR ESSA PARTE */
-
-.selecao{
-    display:flex;
-    flex-direction:column;
-padding-top: 5rem;
-    gap:30px;
-}
-
-.titulo2{
-    text-align:center;
-    font-size:3rem;
-font-family: titulos;
-    font-weight:400;
-
-    color:#151515;
-}
-
-
-
-.carrossel-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.seta {
-    background: none;
-    border: 1px solid #ccc;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 1rem;
-    color: #444;
-    flex-shrink: 0;
-    transition: background 0.2s;
-}
-
-.seta:hover {
-    background: #e0e0e0;
-}
-.jogadores{
-    display:flex;
-
-    gap:14px;
-
-    overflow-x:auto;
-
-    scroll-behavior:smooth;
-
-    padding-bottom:10px;
-}
-
-.jogadores::-webkit-scrollbar{
-    display:none;
-}
-
-
-.card{
-    min-width:230px;
-
-    background:#fdfdfd;
-
-    border:2px solid #efe3a5;
-
-    padding:10px;
-
-    flex-shrink:0;
-
-    display:flex;
-    flex-direction:column;
-
-    gap:10px;
-}
-
-.topo{
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-}
-
-.codigo{
-    color:#b0b0b0;
-
-    font-size:0.65rem;
-
-    letter-spacing:1px;
-}
-
-
-
-/* BANDEIRA DEFINIDA PELO JS SELEÇÃO */
-
-.bandeira{
-    width:22px;
-    height:14px;
-    display:flex;
-    overflow:hidden;
-
-    border-radius:2px;
-
-    border:1px solid #dcdcdc;
-}
-
-.cor{
-    flex:1;
-}
-
-
-.imagem img{
-    width:100%;
-    height:180px;
-    object-fit:cover;
-}
-
-
-
-.posicao{
-    width:fit-content;
-
-    background:#f5e58c;
-
-    color:#9b8533;
-
-    padding:4px 10px;
-
-    border-radius:20px;
-
-    font-size:0.6rem;
-
-    letter-spacing:1px;
-}
-
-.nome{
-    font-size:1.8rem;
-
-    color:#111;
-
-    line-height:1;
-}
-
-.cidade{
-    color:#444;
-
-    font-size:0.75rem;
-
-    line-height:1.4;
-}
-
-
-
-
-.linha-card{
-    width:100%;
-    height:1px;
-
-    background:#dcdcdc;
-}
-
-
-
-.infos{
-    display:flex;
-}
-
-.info{
-    flex:1;
-
-    display:flex;
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:2px;
-}
-
-.numero{
-    font-size:1.5rem;
-
-    color:#222;
-}
-
-.estrela{
-    color:#e4c500;
-}
-
-.texto{
-    font-size:0.7rem;
-
-    color:#aaa;
-}
-
-
-
-
-
-.rodape{
-    display:flex;
-
-    justify-content:space-between;
-
-    color:#b0b0b0;
-
-    font-size:0.65rem;
-
-    margin-top:8px;
-}
-
-
-
-
-.container{
-    display:flex;
-    flex-direction:column;
-
-    gap:50px;
-}
-
-
-
-.linha-topo{
-    width:100%;
-margin-top: 1rem;
-    height:4px;
-
-    border-radius:20px;
-
-    background:gray;
-}
-
-
-
-.conteudo{
-    display:grid;
-    grid-template-columns:1fr 1px 1fr;
-    gap:40px;
-}
-
-.linhaHistoria{
-    width:1px;
-    height: 100%;
-    background:#a4a3a3;
-}
-
-.subtitulo{
-    color:#9a9a9a;
-    font-size:16px;
-    margin-bottom:12px;
-}
-.historia-grid {
-    display: grid;
-    grid-template-columns: 1fr 1px 1fr;
-    gap: 40px;
-    align-items: start;
-}
-.titulo-historia{
-    font-size:3rem;
-    font-family: titulos;
-    line-height:1;
-
-    margin-bottom:20px;
-
-    color:#111;
-
-    font-weight:400;
-}
-
-
-.cor-pais{
-    color:#2f7d54;
-    font-family: titulos;
-}
-
-.texto-historia{
-    color:#444;
-    line-height:1.7;
+.textresumo {
+  color: #333;
+  line-height: 1.8;
   font-size: 18px;
 }
 
+/* SELEÇÃO - CONSULTAR JS PARA ENTENDER MELHOR ESSA PARTE */
 
-
-
-.direita{
-    display:flex;
-    flex-direction:column;
-
-    gap:40px;
+.selecao {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  gap: 30px;
 }
 
-.ano{
-    color:#3d8a57;
-    font-size:2.5rem;
-    margin-bottom:8px;
-    font-family: titulos;
+.titulo2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: titulos;
+  font-weight: 400;
+
+  color: #151515;
 }
 
-.texto-direita{
-    color:#333;
-    font-size: 18px;
-    line-height:1.6;
+.carrossel-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-
-
-
-.imagens{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:20px;
+.seta {
+  background: none;
+  border: 1px solid #ccc;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #444;
+  flex-shrink: 0;
+  transition: background 0.2s;
 }
 
-.imagens img{
-    width:100%;
-
-    height:230px;
-
-    object-fit:cover;
-
-    border-radius:10px;
+.seta:hover {
+  background: #e0e0e0;
 }
 
-
-
- 
-.titulo-momentos{
-    display:grid;
-
-    grid-template-columns:auto 1fr;
-
-    align-items:center;
-
-    gap:20px;
+.jogadores {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
 }
 
-.titulo-momentos p{
-    font-size:3rem;
-    font-family: titulos;
-    color:#111;
-
-    font-weight:400;
+.jogadores::-webkit-scrollbar {
+  display: none;
 }
 
-.linha{
-    width:100%;
-    height:1px;
-
-    background:#b9ccb8;
+.card {
+  min-width: 230px;
+  background: #fdfdfd;
+  border: 2px solid #efe3a5;
+  padding: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-
-
-
-
-.lista{
-    display:flex;
-    flex-direction:column;
-
-    gap:22px;
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.item{
-    display:grid;
+.codigo {
+  color: #b0b0b0;
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+}
 
-    grid-template-columns:60px 1fr;
+/* BANDEIRA DEFINIDA PELO JS SELEÇÃO */
 
-    gap:20px;
+.bandeira {
+  width: 22px;
+  height: 14px;
+  display: flex;
+  overflow: hidden;
 
-    border-bottom:1px solid #d9d9d9;
+  border-radius: 2px;
 
-    padding-bottom:18px;
+  border: 1px solid #dcdcdc;
+}
+
+.cor {
+  flex: 1;
+}
+
+.imagem img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.posicao {
+  width: fit-content;
+
+  background: #f5e58c;
+
+  color: #9b8533;
+
+  padding: 4px 10px;
+
+  border-radius: 20px;
+
+  font-size: 0.6rem;
+
+  letter-spacing: 1px;
+}
+
+.nome {
+  font-size: 1.8rem;
+
+  color: #111;
+
+  line-height: 1;
+}
+
+.cidade {
+  color: #444;
+
+  font-size: 0.75rem;
+
+  line-height: 1.4;
+}
+
+.linha-card {
+  width: 100%;
+  height: 1px;
+
+  background: #dcdcdc;
+}
+
+.infos {
+  display: flex;
+}
+
+.info {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 2px;
+}
+
+.numero {
+  font-size: 1.5rem;
+
+  color: #222;
+}
+
+.estrela {
+  color: #e4c500;
+}
+
+.texto {
+  font-size: 0.7rem;
+
+  color: #aaa;
+}
+
+.rodape {
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #b0b0b0;
+
+  font-size: 0.65rem;
+
+  margin-top: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+
+.linha-topo {
+  width: 100%;
+  margin-top: 1rem;
+  height: 4px;
+
+  border-radius: 20px;
+
+  background: gray;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 40px;
+}
+
+.linhaHistoria {
+  width: 1px;
+  height: 100%;
+  background: #a4a3a3;
+}
+
+.subtitulo {
+  color: #9a9a9a;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.historia-grid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.titulo-historia {
+  font-size: 3rem;
+  font-family: titulos;
+  line-height: 1;
+
+  margin-bottom: 20px;
+
+  color: #111;
+
+  font-weight: 400;
+}
+
+.cor-pais {
+  color: #2f7d54;
+  font-family: titulos;
+}
+
+.texto-historia {
+  color: #444;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.ano {
+  color: #3d8a57;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  font-family: titulos;
+}
+
+.texto-direita {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.imagens img {
+  width: 100%;
+
+  height: 230px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+.titulo-momentos {
+  display: grid;
+
+  grid-template-columns: auto 1fr;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.titulo-momentos p {
+  font-size: 3rem;
+  font-family: titulos;
+  color: #111;
+
+  font-weight: 400;
+}
+
+.linha {
+  width: 100%;
+  height: 1px;
+
+  background: #b9ccb8;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+
+  gap: 22px;
+}
+
+.item {
+  display: grid;
+
+  grid-template-columns: 60px 1fr;
+
+  gap: 20px;
+
+  border-bottom: 1px solid #d9d9d9;
+
+  padding-bottom: 18px;
 }
 
 /*Numero lista tem que atualizar a cor conforme o país, checar o html pra ir mudando conforme o certo*/
-.numero-lista-brasil{
-    font-size:2rem;
-    font-family: titulos;
-    color:#0b6d39;
+.numero-lista-brasil {
+  font-size: 2rem;
+  font-family: titulos;
+  color: #0b6d39;
 }
 
-.descricao{
-    color:#333;
+.descricao {
+  color: #333;
 
-    line-height:1.7;
+  line-height: 1.7;
 
-    font-size:18px;
+  font-size: 18px;
 }
-
-
 
 /* COPA */
 
-#copa{
-    width:min(980px,100%);
+#copa {
+  width: min(980px, 100%);
 
-    margin:auto;
+  margin: auto;
 
-    padding:70px 40px;
+  padding: 70px 40px;
 }
 
-.copa-conteudo{
-    display:flex;
-    flex-direction:column;
+.copa-conteudo {
+  display: flex;
+  flex-direction: column;
 
-    gap:20px;
+  gap: 20px;
 }
-
-
 
 /* ESCONDER */
 .esconder {
-    display: none !important;
+  display: none !important;
 }
 
 /* CULTURA */
-.cultura-container{
-    width:min(900px,100%);
+.cultura-container {
+  width: min(900px, 100%);
 
-    margin:auto;
+  margin: auto;
 
-    display:flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 
-    gap:60px;
+  gap: 60px;
 }
 
-.titulo-cultura{
-    text-align:center;
+.titulo-cultura {
+  text-align: center;
 
-    font-size:clamp(2rem,4vw,3.5rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
 
-    line-height:1.1;
+  line-height: 1.1;
 
-    font-family: titulos;
+  font-family: titulos;
 
-    margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-.bloco-cultura{
-    display:grid;
+.bloco-cultura {
+  display: grid;
 
-    grid-template-columns:1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
-    align-items:center;
+  align-items: center;
 
-    gap:30px;
+  gap: 30px;
 }
 
-.bloco-cultura img{
-    width:100%;
+.bloco-cultura img {
+  width: 100%;
 
-    height:260px;
+  height: 260px;
 
-    object-fit:cover;
+  object-fit: cover;
 }
 
-.bloco-cultura p{
-    color:#333;
+.bloco-cultura p {
+  color: #333;
 
-    line-height:1.8;
+  line-height: 1.8;
 
-    font-size:1rem;
+  font-size: 1rem;
 }
 
-.invertido{
-    grid-template-columns:1fr 1fr;
+.invertido {
+  grid-template-columns: 1fr 1fr;
 }
 
 /* RESPONSIVO */
 
-@media(max-width:768px){
+@media (max-width: 768px) {
+  .cabecario {
+    height: 42vh;
+  }
 
-    .cabecario{
-        height:42vh;
-    }
+  .titulo {
+    font-size: 4rem;
+  }
 
-    .titulo{
-        font-size:4rem;
-    }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
 
-    .conteudo{
-        grid-template-columns:1fr;
-    }
+  .linhaHistoria {
+    width: 100%;
+    height: 1px;
+  }
 
-    .linhaHistoria{
-        width:100%;
-        height:1px;
-    }
+  .imagens {
+    grid-template-columns: 1fr;
+  }
 
-    .imagens{
-        grid-template-columns:1fr;
-    }
+  .titulo-momentos {
+    grid-template-columns: 1fr;
+  }
 
-    .titulo-momentos{
-        grid-template-columns:1fr;
-    }
+  .titulo-historia {
+    font-size: 2.3rem;
+  }
 
-    .titulo-historia{
-        font-size:2.3rem;
-    }
-
-    .titulo2{
-        font-size:2.4rem;
-    }
-
+  .titulo2 {
+    font-size: 2.4rem;
+  }
 }

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>México</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="index.html">Copa</a>
+      <a href="pages/grupos.html">Grupos</a>
+      <a href="pages/paises/Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <img src="" alt="" />
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            O México está prestes a fazer história: será o primeiro país a
+            sediar três edições da Copa do Mundo da FIFA™, desta vez junto com
+            os Estados Unidos e o Canadá, e disputará o torneio pela 18ª vez. É
+            uma das seleções com mais participações em toda a história. O país
+            foi anfitrião da Copa do Mundo pela última vez em 1986, chegando às
+            quartas de final – feito que já havia alcançado em 1970. O apoio da
+            torcida foi fundamental em ambas as ocasiões. Desta vez, sob o
+            comando de Javier Aguirre, jogador da seleção de 1986, o México
+            tentará superar a fase que não consegue ultrapassar desde então.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                México
+              </p>
+
+              <p class="texto-historia">
+                As melhores campanhas do México foram justamente quando sediou a
+                competição. Em ambas as edições chegou às quartas de final: em
+                1970, sob o comando de Raúl Cárdenas, foi eliminado com uma
+                derrota por 4 a 1 pela Itália, e em 1986, com Bora Milutinovic
+                no comando, saiu do torneio ao perder da Alemanha nos pênaltis,
+                após empate sem gols no tempo normal.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">1970</p>
+
+                <p class="texto-direita">
+                  Na Copa do Mundo de 1970, a Seleção Mexicana conquistou a sua
+                  melhor campanha histórica até aquele momento. Jogando em casa
+                  com o forte apoio da torcida, o México quebrou um longo tabu e
+                  conseguiu se classificar para as quartas de final pela
+                  primeira vez.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">1986</p>
+
+                <p class="texto-direita">
+                  Em 1986, o México voltou a sediar a Copa do Mundo e repetiu a
+                  sua melhor campanha da história, chegando novamente às quartas
+                  de final e terminando o torneio de forma invicta no tempo
+                  regulamentar. O país assumiu a organização às pressas após a
+                  Colômbia desistir por motivos financeiros.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/mexico/cultura/torcidaMex.jfif"
+              alt="Torcida da Bélgica"
+            />
+
+            <img
+              src="../../../assets/imgs/mexico/cultura/torcidaMex1.webp"
+              alt="Torcida da Bélgica"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                A edição do México 1986 representa uma lembrança especial para a
+                torcida, não apenas pelo calor humano que vinha das
+                arquibancadas, mas também pelo futebol apresentado sob o comando
+                de Bora Milutinovic.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                Na França 1998, integrando o Grupo E, venceu a República da
+                Coreia, empatou com a Bélgica e chegou ao jogo decisivo
+                precisando pontuar contra os Países Baixos.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                Luis Hernández e Javier Hernández compartilham mais do que o
+                sobrenome: ambos lideram a artilharia mexicana na história da
+                Copa do Mundo com quatro gols cada.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                A seleção mexicana foi uma das 13 participantes do Uruguai 1930,
+                o torneio de estreia que teve os anfitriões como campeões. O
+                México disputou o jogo inaugural contra a França, depois
+                enfrentou o Chile e encerrou sua participação contra a
+                Argentina.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("mexico");
+        renderizarCultura("mexico");
+      });
+    </script>
+  </body>
+</html>

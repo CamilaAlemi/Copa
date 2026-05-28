@@ -1,38 +1,38 @@
 const culturas = {
-  belgica: [
+  mexico: [
     {
-      imagem: "../../../assets/imgs/belgica/cultura/belgicacidade.webp",
+      imagem: "../../../assets/imgs/mexico/cultura/culinaria.jfif",
       texto:
-        "A Bélgica é conhecida por suas cidades históricas, com construções medievais preservadas e grandes praças que refletem sua rica herança cultural.",
+        "A culinária mexicana tradicional foi declarada Patrimônio Imaterial da Humanidade pela UNESCO, devido às suas técnicas agrícolas e ingredientes ancestrais.",
     },
 
     {
-      imagem: "../assets/imgs/belgica/cultura/chocolate.webp",
+      imagem: "../../../assets/imgs/mexico/cultura/diaMortos.jfif",
       texto:
-        "Os chocolates belgas são famosos mundialmente pela qualidade e tradição artesanal presente em sua produção.",
+        "O Día de los Muertos não é uma celebração triste, mas sim uma festa alegre para guiar as almas dos parentes de volta para casa com música, cores e flores de calêndula.",
     },
 
     {
-      imagem: "../assets/imgs/belgica/cultura/cerveja.jpg",
+      imagem: "../../../assets/imgs/mexico/cultura/chocoM.jfif",
       texto:
-        "A produção de cervejas é uma das tradições mais importantes da Bélgica, que possui centenas de estilos reconhecidos internacionalmente.",
+        "Os astecas e maias foram os primeiros a cultivar o cacau, consumindo o chocolate como uma bebida amarga e apimentada usada em rituais religiosos.",
     },
 
     {
-      imagem: "../assets/imgs/belgica/cultura/smurfs.webp",
+      imagem: "../../../assets/imgs/mexico/cultura/lucha.jfif",
       texto:
-        "Os quadrinhos fazem parte da identidade cultural belga, sendo o país de personagens famosos como Tintim e os Smurfs.",
+        "O wrestling mexicano é marcado pelas máscaras coloridas de super-heróis e movimentos aéreos acrobáticos, transformando o esporte em um verdadeiro teatro cultural.",
     },
 
     {
-      imagem: "../assets/imgs/belgica/cultura/paisagens.jpg",
+      imagem: "../../../assets/imgs/mexico/cultura/ola.jpg",
       texto:
-        "A Bélgica possui paisagens que combinam florestas, campos e cidades históricas, especialmente na região das Ardenas.",
+        "A famosa onda humana sincronizada que as torcidas fazem em estádios de futebol ao redor do mundo nasceu no México na década de 1970.",
     },
   ],
   brasil: [
     {
-      imagem: "../assets/imgs/brasil/cultura/festas.webp",
+      imagem: "../../../assets/imgs/brasil/cultura/festas.webp",
 
       texto:
         "Festas tradicionais e roupas típicas fazem parte da identidade cultural brasileira.",
