@@ -28,8 +28,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.267);
-  backdrop-filter: blur(10px);
 }
 
 #master #menu a {
@@ -42,19 +40,27 @@
   top: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: aliceblue;
+  background-color: rgba(66, 66, 66, 0.393);
   z-index: -1;
 }
 
-#master #grupos .grupo{
-  width: 100%;
+#master #grupos .grupo {
+  width: 100vw;
   height: 100vh;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: end;
   position: relative;
+  background-color: rgba(66, 66, 66, 0.393);
+}
+
+#master #grupos .grupo .imgFundo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 #master #grupos .grupo #grupoBannerC #linhasDecorativas {
@@ -84,35 +90,15 @@
 }
 
 #master #grupos .grupo #grupoBannerC #descGrupoBanner #tituloBanner {
-  font-size: clamp(3rem,7vw, 9rem);
+  font-size: clamp(3rem, 7vw, 9rem);
+  transition: 0.5s ease;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #tituloBanner:hover {
+  color: rgba(255, 255, 255, 0.642);
 }
 
 #master #grupos .grupo #grupoBannerC #descGrupoBanner #nomesPaisesBanner {
   width: 100px;
   font-size: 13px;
-}
-
-#master #grupos #gA{
-  background-image: url(../assets/imgs/grupoABanner.png);
-  background-position: center;
-  background-size: cover;
-  aspect-ratio: 16/9;
-}
-
-#master #grupos #gC{
-  background-image: url(../assets/imgs/grupoCBanner.png);
-  background-position: center;
-  background-size: cover;
-}
-
-#master #grupos #gG{
-  background-image: url(../assets/imgs/grupoGBanner.png);
-  background-position: center;
-  background-size: cover;
-}
-
-#master #grupos #gJ{
-  background-image: url(../assets/imgs/grupoJBanner.png);
-  background-position: center;
-  background-size: cover;
 }

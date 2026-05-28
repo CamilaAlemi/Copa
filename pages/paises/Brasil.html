@@ -1,268 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon"  sizes="16x16" href="../../imgs/bandeiraPais/brasil.png" type="image/png">
-    <link rel="stylesheet" href="../../styles/paisesStyles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../imgs/bandeiraPais/brasil.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../styles/paisesStyles.css" />
 
     <title>Brasil</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div class="cabecario">
-
-        <p class="titulo">
-            brasil
-        </p>
-
+      <p class="titulo">brasil</p>
     </div>
-
-
-
-
 
     <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
 
-        <div class="menuP">
-<button class="ativo" onclick="mostrarAba('copa', this)">
-    Na Copa
-</button>
-   <button onclick="mostrarAba('cultura', this)">
-    Cultura
-</button>
-            
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            O Brasil é a única seleção presente em todas as edições da Copa do
+            Mundo desde 1930 — 23 participações consecutivas, nenhum outro país
+            chegou perto. Ao longo dessa história, acumula 76 vitórias, 19
+            empates e apenas 19 derrotas, com 237 gols marcados em Mundiais. Em
+            2026, comandada por Carlo Ancelotti, a Seleção busca o tão sonhado
+            hexacampeonato — título que não vem desde 2002.
+          </p>
         </div>
 
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
 
-        <!-- COPA -->
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
 
-        <div id="copa" >
+            <div class="jogadores" id="jogadores"></div>
 
-            <div class="resumo">
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
 
-                <p class="textresumo">
-                   O Brasil é a única seleção presente em todas as edições da Copa do Mundo 
-                   desde 1930 — 23 participações consecutivas, nenhum outro país chegou perto.
-                    Ao longo dessa história, acumula 76 vitórias, 19 empates e apenas 19 derrotas,
-                     com 237 gols marcados em Mundiais. Em 2026, comandada por Carlo Ancelotti, 
-                   a Seleção busca o tão sonhado hexacampeonato — título que não vem desde 2002.
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo do<br />
+                Brasil
+              </p>
+
+              <p class="texto-historia">
+                Copa de 1970, no México, é considerada por muitos especialistas
+                como a maior seleção de todos os tempos: campanha perfeita com
+                seis vitórias em seis jogos, encerrando com uma goleada de 4 a 1
+                sobre a Itália na final. Jairzinho é o único jogador da história
+                a marcar em todas as partidas de uma Copa, com sete gols em seis
+                jogos naquele torneio.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">1958 e 1962</p>
+
+                <p class="texto-direita">
+                  Em 1958, Pelé, aos 17 anos, tornou-se o atleta mais jovem a
+                  conquistar o título mundial. Em 1962, o protagonismo foi de
+                  Garrincha, que conduziu a equipe mesmo com Pelé lesionado na
+                  fase de grupos — garantindo o primeiro bicampeonato
+                  consecutivo da história.
                 </p>
-
-            </div>
-
-
-
-
-<div class="selecao">
-
-    <p class="titulo2">Seleção</p>
-
-    <div class="carrossel-wrapper">
-        <button class="seta seta-esq" onclick="scrollJogadores(-1)">&#8592;</button>
-
-        <div class="jogadores" id="jogadores"></div>
-
-        <button class="seta seta-dir" onclick="scrollJogadores(1)">&#8594;</button>
-    </div>
-
-</div>
-
-
-
-
-            <!-- HISTÓRIA -->
-
-            <div class="container">
-            
-                <div class="linha-topo" id="linhaTopo"></div>
-
-                <div class="historia-grid">
-
-                    <div class="esquerda">
-
-                        <p class="subtitulo">
-                            HISTÓRIA
-                        </p>
-
-                        <p class="titulo-historia">
-                            A melhor <span class="cor-pais">Copa</span><br>
-                            do Mundo do<br>
-                            Brasil
-                        </p>
-
-                        <p class="texto-historia">
-                            Copa de 1970, no México, é considerada por muitos especialistas como a 
-                            maior seleção de todos os tempos: campanha perfeita com seis vitórias em seis jogos,
-                             encerrando com uma goleada de 4 a 1 sobre a Itália na final. Jairzinho é o único 
-                             jogador da história a 
-                            marcar em todas as partidas de uma Copa, com sete gols em seis jogos naquele torneio.
-                        </p>
-
-                    </div>
-
-                    <div class="linhaHistoria"></div>
-
-                    <div class="direita">
-
-                        <div class="bloco">
-
-                            <p class="ano">
-                                1958 e 1962
-                            </p>
-
-                            <p class="texto-direita">
-                               Em 1958, Pelé, aos 17 anos, tornou-se o atleta mais jovem a 
-                               conquistar o título mundial. Em 1962, o protagonismo foi de 
-                               Garrincha, que conduziu a equipe mesmo com Pelé lesionado na
-                                fase de grupos — garantindo o primeiro bicampeonato consecutivo da história.
-                            </p>
-
-                        </div>
-
-                        <div class="bloco">
-
-                            <p class="ano">
-                                2002
-                            </p>
-
-                            <p class="texto-direita">
-                               A campanha mais eficiente da era moderna: sete jogos, sete vitórias,
-                                nenhum empate, nenhuma derrota. O grande nome foi Ronaldo Fenômeno,
-                                 artilheiro com oito gols. Na final contra
-                                a Alemanha, o Brasil venceu por 2 a 0, com dois gols de Ronaldo.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="imagens">
-
-                    <img src="../../imgs/Brasil/cultura/torcida.webp"
-                        alt="Torcida brasileira">
-
-                    <img src="../../imgs/Brasil/cultura/torcida2.jpg"
-                        alt="Torcida brasileira">
-
-                </div>
-
-
-                <div class="titulo-momentos">
-
-                    <p>
-                        Momentos inesquecíveis
-                    </p>
-
-                    <div class="linha"></div>
-
-                </div>
-
-                <div class="lista">
-
-                    <div class="item">
-
-                        <p class="numero-lista-brasil">
-                            01
-                        </p>
-
-                        <p class="descricao">
-                           O Maracanazo de 1950 — derrota para o Uruguai no Maracanã com o estádio lotado, 
-                           em jogo que valia o título — é considerado uma das maiores tragédias do esporte brasileiro e moldou gerações inteiras.
-                        </p>
-
-                    </div>
-
-                    <div class="item">
-
-                        <p class="numero-lista-brasil">
-                            02
-                        </p>
-
-                        <p class="descricao">
-                          A seleção , com Zico, Sócrates e Falcão,
-                           encantou o mundo com futebol ofensivo e criativo, mas foi eliminada na segunda 
-                           fase pela Itália em um dos jogos mais lembrados da história do torneio em 1982.
-                        </p>
-
-                    </div>
-
-                    <div class="item">
-
-                        <p class="numero-lista-brasil">
-                            03
-                        </p>
-
-                        <p class="descricao">
-                           O 7 a 1 para a Alemanha na semifinal de 2014, disputada em casa, entrou para a 
-                           história como a maior goleada sofrida 
-                           pela Seleção em uma Copa e um dos momentos mais dolorosos do futebol brasileiro.
-                        </p>
-
-                    </div>
-
-                    <div class="item">
-
-                        <p class="numero-lista-brasil">
-                            04
-                        </p>
-
-                        <p class="descricao">
-                           Ronaldo é o maior artilheiro do Brasil na história das Copas, com 15 gols em três 
-                           participações (1998, 2002 e 2006),
-                            sendo também o artilheiro histórico do torneio por seleções por muitos anos
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- CULTURA -->
-
-       <div id="cultura" class="esconder">
-
-            <div class="cultura-container">
-
-                <p class="titulo-cultura">
-                    Detalhes<br>
-                    culturais do país
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2002</p>
+
+                <p class="texto-direita">
+                  A campanha mais eficiente da era moderna: sete jogos, sete
+                  vitórias, nenhum empate, nenhuma derrota. O grande nome foi
+                  Ronaldo Fenômeno, artilheiro com oito gols. Na final contra a
+                  Alemanha, o Brasil venceu por 2 a 0, com dois gols de Ronaldo.
                 </p>
+              </div>
+            </div>
+          </div>
 
-                <div id="cardsCultura">
+          <div class="imagens">
+            <img
+              src="../../imgs/Brasil/cultura/torcida.webp"
+              alt="Torcida brasileira"
+            />
 
-                </div>
+            <img
+              src="../../imgs/Brasil/cultura/torcida2.jpg"
+              alt="Torcida brasileira"
+            />
+          </div>
 
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                O Maracanazo de 1950 — derrota para o Uruguai no Maracanã com o
+                estádio lotado, em jogo que valia o título — é considerado uma
+                das maiores tragédias do esporte brasileiro e moldou gerações
+                inteiras.
+              </p>
             </div>
 
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                A seleção , com Zico, Sócrates e Falcão, encantou o mundo com
+                futebol ofensivo e criativo, mas foi eliminada na segunda fase
+                pela Itália em um dos jogos mais lembrados da história do
+                torneio em 1982.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                O 7 a 1 para a Alemanha na semifinal de 2014, disputada em casa,
+                entrou para a história como a maior goleada sofrida pela Seleção
+                em uma Copa e um dos momentos mais dolorosos do futebol
+                brasileiro.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                Ronaldo é o maior artilheiro do Brasil na história das Copas,
+                com 15 gols em três participações (1998, 2002 e 2006), sendo
+                também o artilheiro histórico do torneio por seleções por muitos
+                anos
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
     </div>
-    
 
     <script src="../../scripts/selecao.js"></script>
     <script src="../../scripts/Pais.js"></script>
     <script src="../../scripts/cultura.js"></script>
 
-<script>
-window.addEventListener("DOMContentLoaded", () => {
-
-    renderizarJogadores("brasil")
-    renderizarCultura("brasil")
-
-})
-</script>
-</body>
-
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("brasil");
+        renderizarCultura("brasil");
+      });
+    </script>
+  </body>
 </html>

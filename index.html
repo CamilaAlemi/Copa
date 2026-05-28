@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Copa</title>
     <link rel="stylesheet" href="styles/homeStyle.css" />
+    <script src="scripts/slidePrincipal.js"></script>
+    <script src="scripts/animacaoLinha.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/slideEstadios.js"></script>
+    <script src="scripts/contagemVitoria.js"></script>
   </head>
   <body>
     <div id="master">
@@ -15,18 +24,19 @@
           <a href="pages/paises/Brasil.html">Brasil</a>
         </div>
         <div id="banner">
+          <img src="assets/imgs/grupoABanner.png" alt="" id="imgFundo" />
           <div id="botoesBanner">
-            <button>Anterior</button>
-            <button>Posterior</button>
+            <button id="btnE">Anterior</button>
+            <button id="btnD">Posterior</button>
           </div>
           <div id="grupoBannerC">
             <div id="linhasDecorativas">
               <div id="linhaMaior"></div>
             </div>
             <div id="descGrupoBanner">
-              <p id="tituloBanner">GRUPO A</p>
+              <a href="pages/grupo.html" id="tituloBanner">GRUPO A</a>
               <div id="nomesPaisesBanner">
-                <p class="paisBanner">
+                <p id="paisBanner">
                   México, África do Sul, Coreia do Sul e República Tcheca
                 </p>
               </div>
@@ -78,11 +88,11 @@
 
       <div id="estadiosContainer">
         <p class="titulos">Estádios</p>
-        <div id="slideEstados">
-          <button><img src="assets/imgs/setaEstadioE.png" alt="" /></button>
-          <div id="estadios">
-            <div class="estadio">
-              <img src="" alt="" />
+
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/imgs/estadios/estadioToronto.png" alt="" />
               <div class="descEstadio">
                 <div class="nomeEstadio">Estádio de Toronto</div>
                 <div class="localEstadio">
@@ -108,8 +118,62 @@
                 </div>
               </div>
             </div>
-            <div class="estadio">
-              <img src="" alt="" />
+            <div class="swiper-slide">
+              <img src="assets/imgs/estadios/estadioToronto.png" alt="" />
+              <div class="descEstadio">
+                <div class="nomeEstadio">Estádio de Toronto</div>
+                <div class="localEstadio">
+                  <img src="assets/imgs/localizacaoEstadio.png" alt="" />
+                  <p>Toronto, Ontorio, Canadá</p>
+                </div>
+                <div class="capInau">
+                  <div class="capacitacao">
+                    <img src="assets/imgs/capacitacaoEstadio.png" alt="" />
+                    <div class="textoCI">
+                      <p>Capacitação</p>
+                      <p>45.000</p>
+                    </div>
+                  </div>
+                  <div class="linhaSeparacao"></div>
+                  <div class="inauguracao">
+                    <img src="assets/imgs/inauguracaoEstadio.png" alt="" />
+                    <div class="textoCI">
+                      <p>Inauguração</p>
+                      <p>1983</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slideMenor">
+              <img src="assets/imgs/estadios/estadioToronto.png" alt="" />
+              <div class="descEstadio">
+                <div class="nomeEstadio">Estádio de Toronto</div>
+                <div class="localEstadio">
+                  <img src="assets/imgs/localizacaoEstadio.png" alt="" />
+                  <p>Toronto, Ontorio, Canadá</p>
+                </div>
+                <div class="capInau">
+                  <div class="capacitacao">
+                    <img src="assets/imgs/capacitacaoEstadio.png" alt="" />
+                    <div class="textoCI">
+                      <p>Capacitação</p>
+                      <p>45.000</p>
+                    </div>
+                  </div>
+                  <div class="linhaSeparacao"></div>
+                  <div class="inauguracao">
+                    <img src="assets/imgs/inauguracaoEstadio.png" alt="" />
+                    <div class="textoCI">
+                      <p>Inauguração</p>
+                      <p>1983</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slideMenor">
+              <img src="assets/imgs/estadios/estadioToronto.png" alt="" />
               <div class="descEstadio">
                 <div class="nomeEstadio">Estádio de Toronto</div>
                 <div class="localEstadio">
@@ -136,27 +200,33 @@
               </div>
             </div>
           </div>
-          <button><img src="assets/imgs/setaEstadioD.png" alt="" /></button>
+          <div class="swiper-scrollbar"></div>
         </div>
       </div>
 
       <div id="vitoriasContainer">
         <p class="titulos">Países com mais vitórias</p>
         <div id="classificacao">
-          <div class="paisVitoria prata">
-            <img src="assets/imgs/bandeiraPais/bandeiraAlemanha.png" alt="">
-            <p class="nomePaisV">Alemanha</p>
-            <p class="vitorias">4 Vitórias</p>
+          <div class="paisVitoria prata" data-vitorias="4">
+            <div class="conteudoV">
+              <img src="assets/imgs/bandeiraPais/bandeiraAlemanha.png" alt="" />
+              <p class="nomePaisV">Alemanha</p>
+              <p class="vitorias"></p>
+            </div>
           </div>
-          <div class="paisVitoria ouro">
-            <img src="assets/imgs/bandeiraPais/bandeiraBrasil.png" alt="">
-            <p class="nomePaisV">Brasil</p>
-            <p class="vitorias">5 Vitórias</p>
+          <div class="paisVitoria ouro" data-vitorias="5">
+            <div class="conteudoV">
+              <img src="assets/imgs/bandeiraPais/bandeiraBrasil.png" alt="" />
+              <p class="nomePaisV">Brasil</p>
+              <p class="vitorias"></p>
+            </div>
           </div>
-          <div class="paisVitoria bronze">
-            <img src="assets/imgs/bandeiraPais/bandeiraItalia.png" alt="">
-            <p class="nomePaisV">Itália</p>
-            <p class="vitorias">4 Vitórias</p>
+          <div class="paisVitoria bronze" data-vitorias="4">
+            <div class="conteudoV">
+              <img src="assets/imgs/bandeiraPais/bandeiraItalia.png" alt="" />
+              <p class="nomePaisV">Itália</p>
+              <p class="vitorias"></p>
+            </div>
           </div>
         </div>
       </div>
