@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: titulos;
+  src: url(../assets/fontes/Michroma-Regular.ttf);
+}
+
+@font-face {
+  font-family: textos;
+  src: url(../assets/fontes/Metrophobic-Regular.ttf);
+}
+
+#master {
+  font-family: titulos;
+}
+
+#master a {
+  text-decoration: none;
+}
+
+#master #menu {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#master #menu a {
+  color: white;
+  font-size: 20px;
+}
+
+#master #grupos {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(66, 66, 66, 0.393);
+  z-index: -1;
+}
+
+#master #grupos .grupo {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+  background-color: rgba(66, 66, 66, 0.393);
+}
+
+#master #grupos .grupo .imgFundo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#master #grupos .grupo #grupoBannerC #linhasDecorativas {
+  width: 100%;
+  height: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#master #grupos .grupo #grupoBannerC #linhasDecorativas #linhaMaior {
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-left: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #tituloBanner {
+  font-size: clamp(3rem, 7vw, 9rem);
+  transition: 0.5s ease;
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #tituloBanner:hover {
+  color: rgba(255, 255, 255, 0.642);
+}
+
+#master #grupos .grupo #grupoBannerC #descGrupoBanner #nomesPaisesBanner {
+  width: 100px;
+  font-size: 13px;
+}
+
+#rodape {
+   width: 100%;
+  height: 40vh;
+  margin-top: 2rem;
+  background-color: antiquewhite;
+    margin-top: 100px;
+    background-color: #111;
+    color: white;
+    padding: 40px 10%;
+}
+
+.conteudoRodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.infoRodape {
+    max-width: 450px;
+}
+
+.infoRodape h3 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.infoRodape p {
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.linksRodape {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linksRodape h4 {
+    margin-bottom: 5px;
+}
+
+.linksRodape a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.linksRodape a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
+    opacity: 0.7;
+}
