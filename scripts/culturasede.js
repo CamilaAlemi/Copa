@@ -18,7 +18,7 @@ const culturas = {
     },
 
     {
-        imagem: "../../assets/imgs/canada/cultura/hockey.webp",
+        imagem: "../../assets/imgs/canada/cultura/hoquei.webp",
 
         texto: "O hóquei no gelo ocupa um lugar especial na cultura canadense. O esporte é acompanhado com paixão por milhões de pessoas e faz parte da identidade nacional desde o século XIX."
     },
@@ -30,7 +30,7 @@ const culturas = {
     },
 
     {
-        imagem: "../../assets/imgs/canada/cultura/multiculturalismo.jpg",
+        imagem: "../../assets/imgs/canada/cultura/multicultaralismo.jpg",
 
         texto: "O Canadá é reconhecido por sua diversidade cultural. Pessoas de diferentes origens, idiomas e tradições convivem no país, tornando cidades como Toronto, Vancouver e Montreal verdadeiros centros multiculturais."
     },
