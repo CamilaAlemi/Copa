@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>Jordânia</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="../../../index.html">Copa</a>
+      <a href="../../grupos.html">Grupos</a>
+      <a href="../Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <p class="titulo">Jordânia</p>
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            A seleção da Jordânia teve uma participação histórica ao conquistar
+            sua primeira classificação para a Copa do Mundo, representando um
+            grande marco para o futebol do país. Conhecida por sua evolução no
+            cenário asiático, a Jordânia vem investindo no desenvolvimento
+            esportivo e conquistando resultados importantes em competições
+            continentais. Sua presença no torneio demonstra o crescimento do
+            futebol jordaniano e simboliza um momento de orgulho nacional, além
+            de inspirar novos atletas no país. Mesmo enfrentando seleções
+            tradicionais, a Jordânia busca mostrar competitividade, organização
+            e determinação dentro de campo.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                Jordânia
+              </p>
+
+              <p class="texto-historia">
+                As melhores campanhas da Jordânia no futebol aconteceram
+                principalmente na Copa da Ásia AFC, já que o país nunca havia
+                disputado uma Copa do Mundo até garantir vaga para 2026. O maior
+                momento da seleção jordaniana foi em 2023 (disputada em 2024),
+                quando alcançou a final da Copa da Ásia pela primeira vez na
+                história, terminando como vice-campeã após perder para o Catar
+                por 3 a 1.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">2011</p>
+
+                <p class="texto-direita">
+                  Quando a Jordânia chegou às quartas de final da Copa da Ásia,
+                  sendo uma das melhores campanhas do país até então.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2019</p>
+
+                <p class="texto-direita">
+                  A seleção voltou a se destacar ao liderar um grupo difícil,
+                  vencendo a Austrália na estreia, mas acabou eliminada nas
+                  oitavas de final nos pênaltis para o Vietnã.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/jordania/cultura/torcidaJ.webp"
+              alt="Torcida da Jordânia"
+            />
+
+            <img
+              src="../../../assets/imgs/jordania/cultura/torcidaJ1.webp"
+              alt="Torcida da Jordânia"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                A Jordânia chegou pela primeira vez à final continental, algo
+                inédito para o país, tornando-se vice-campeã.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                A Jordânia surpreendeu ao vencer uma das seleções mais fortes da
+                Ásia por 2 a 0, garantindo vaga inédita na final.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                Foi uma das primeiras grandes campanhas internacionais da
+                seleção, mostrando crescimento no futebol asiático.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                A Jordânia venceu por 1 a 0 uma seleção tradicional e terminou
+                líder do grupo, surpreendendo muita gente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("jordania");
+        renderizarCultura("jordania");
+      });
+    </script>
+  </body>
+</html>

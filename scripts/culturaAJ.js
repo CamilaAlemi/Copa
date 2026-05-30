@@ -30,229 +30,207 @@ const culturas = {
         "A famosa onda humana sincronizada que as torcidas fazem em estádios de futebol ao redor do mundo nasceu no México na década de 1970.",
     },
   ],
-  brasil: [
+
+  africaS: [
     {
-      imagem: "../../../assets/imgs/brasil/cultura/festas.webp",
+      imagem: "../../../assets/imgs/africaS/cultura/indigena.webp",
 
       texto:
-        "Festas tradicionais e roupas típicas fazem parte da identidade cultural brasileira.",
+        " A rica herança do povo San (bosquímanos), considerado um dos mais antigos do mundo, cujas expressões artísticas e arte em miçangas são preservadas até hoje.",
     },
 
     {
-      imagem: "../assets/imgs/brasil/cultura/festas.webp",
+      imagem: "../../../assets/imgs/africaS/cultura/nelson.jpg",
       texto:
-        "O samba representa uma das manifestações culturais mais importantes do país.",
+        "O país respira o legado de Nelson Mandela e museus que documentam a luta pelos direitos civis, como o Apartheid Museum em Joanesburgo.",
     },
 
     {
-      imagem: "../assets/imgs/brasil/cultura/influenciasculturas.jpg",
+      imagem: "../../../assets/imgs/africaS/cultura/jazz.webp",
 
       texto:
-        "Influências indígenas, africanas e europeias aparecem na arquitetura e culinária.",
+        "A efervescência de ritmos locais como o Kwaito (pop africano), o Jazz local e o uso constante das vuvuzelas, além de danças tradicionais cheias de energia.",
     },
 
     {
-      imagem: "../assets/imgs/brasil/cultura/brasil.jpg",
+      imagem: "../../../assets/imgs/africaS/cultura/medicina.jfif",
 
       texto:
-        "O futebol é uma das maiores paixões do povo brasileiro e faz parte da identidade cultural do país, influenciando costumes, linguagem e celebrações.",
+        "Os Sangomas (curandeiros espirituais) e Inyangas (herboristas) são consultados formalmente por milhões de pessoas antes dos médicos ocidentais.",
     },
 
     {
-      imagem: "../assets/imgs/brasil/cultura/paisagem.webp",
+      imagem: "../../../assets/imgs/africaS/cultura/braii.jpg",
       texto:
-        "O Brasil possui paisagens naturais famosas mundialmente, como a Floresta Amazônica, a maior floresta tropical do planeta.",
-    },
-  ],
-
-  egito: [
-    {
-      imagem: "../assets/imgs/egito/cultura/piramide.webp",
-      texto:
-        "As pirâmides e templos do Antigo Egito representam uma das civilizações mais influentes e admiradas da história.",
-    },
-
-    {
-      imagem: "../assets/imgs/egito/cultura/rionilo.webp",
-      texto:
-        "O Rio Nilo desempenha um papel fundamental na cultura egípcia, sendo fonte de vida, agricultura e desenvolvimento desde a Antiguidade.",
-    },
-
-    {
-      imagem: "../assets/imgs/egito/cultura/mercado.jpg",
-      texto:
-        "Os mercados tradicionais egípcios preservam costumes centenários e oferecem artesanato, especiarias e produtos típicos.",
-    },
-
-    {
-      imagem: "../assets/imgs/egito/cultura/musica.webp",
-      texto:
-        "A música e a dança tradicionais fazem parte das celebrações culturais egípcias e refletem influências árabes e africanas.",
-    },
-
-    {
-      imagem: "../assets/imgs/egito/cultura/deserto.jpg",
-      texto:
-        "O Egito possui paisagens marcadas pelo deserto do Saara e pelos monumentos históricos que atraem visitantes do mundo inteiro.",
+        "O Dia da Herança Cultural (24 de setembro) virou informalmente o National Braai Day, onde todos os povos grelham carne juntos.",
     },
   ],
 
-  escocia: [
+  coreiaS: [
     {
-      imagem: "../assets/imgs/escocia/cultura/kilt.webp",
+      imagem: "../../../assets/imgs/coreiaS/cultura/kpop.jpg",
       texto:
-        "O kilt e os padrões xadrez dos clãs escoceses são símbolos tradicionais da identidade cultural da Escócia.",
+        "Fenômeno global que exporta a cultura do país através do K-Pop, de séries dramáticas de sucesso mundial (K-Dramas) e do cinema premiado.",
     },
 
     {
-      imagem: "../assets/imgs/escocia/cultura/gaita.jpg",
+      imagem: "../../../assets/imgs/coreiaS/cultura/respeito.jfif",
       texto:
-        "A gaita de foles é um dos instrumentos mais emblemáticos da cultura escocesa e está presente em festivais e cerimônias.",
+        "A sociedade é moldada pelo respeito extremo aos mais velhos, à hierarquia social e à etiqueta.",
     },
 
     {
-      imagem: "../assets/imgs/escocia/cultura/castelo.webp",
+      imagem: "../../../assets/imgs/coreiaS/cultura/budistas.jfif",
       texto:
-        "Os castelos históricos espalhados pelo país refletem séculos de história e fazem parte do patrimônio cultural escocês.",
+        " Palácios reais dinásticos convivem lado a lado com arranha-céus em Seul, enquanto templos budistas nas montanhas preservam a meditação milenar.",
     },
 
     {
-      imagem: "../assets/imgs/escocia/cultura/highlandgames.webp",
+      imagem: "../../../assets/imgs/coreiaS/cultura/culinaria.webp",
       texto:
-        "Os Highland Games são competições tradicionais que celebram a força, os costumes e as tradições do povo escocês.",
-    },
-
-    {
-      imagem: "../assets/imgs/escocia/cultura/highlands.jpg",
-      texto:
-        "As Highlands apresentam montanhas, lagos e paisagens naturais impressionantes que se tornaram símbolos da Escócia.",
-    },
-  ],
-  haiti: [
-    {
-      imagem: "../assets/imgs/haiti/cultura/carnaval.jpg",
-      texto:
-        "O Carnaval do Haiti é uma das maiores celebrações culturais do país, reunindo música, dança e tradições populares.",
-    },
-
-    {
-      imagem: "../assets/imgs/haiti/cultura/arte.jpg",
-      texto:
-        "A arte haitiana é reconhecida mundialmente por suas pinturas coloridas, esculturas e forte expressão cultural.",
-    },
-
-    {
-      imagem: "../assets/imgs/haiti/cultura/vodu.jpg",
-      texto:
-        "O vodu haitiano faz parte da herança cultural do país e influencia festividades, crenças e manifestações artísticas.",
-    },
-
-    {
-      imagem: "../assets/imgs/haiti/cultura/cidadela.webp",
-      texto:
-        "A Citadelle Laferrière é um dos maiores símbolos históricos do Haiti e representa a luta pela independência.",
-    },
-
-    {
-      imagem: "../assets/imgs/haiti/cultura/paisagens.webp",
-      texto:
-        "O Haiti possui praias tropicais, montanhas e paisagens naturais que fazem parte da identidade do país.",
+        "O prato nacional à base de acelga fermentada e apimentada é patrimônio cultural imaterial da humanidade. Destacam-se também o churrasco coreano e a forte cultura de comida de rua.",
     },
   ],
 
-  ira: [
+  republicaT: [
     {
-      imagem: "../assets/imgs/ira/cultura/persa.webp",
+      imagem: "../../../assets/imgs/republicaC/cultura/museu.webp",
       texto:
-        "A cultura persa influencia profundamente o Irã, com tradições que atravessam milhares de anos de história.",
+        "Praga é um museu a céu aberto que preservou intactos edifícios do estilo Gótico, Barroco, Renascentista e Art Nouveau, tendo escapado de grandes bombardeios na Segunda Guerra Mundial.",
     },
 
     {
-      imagem: "../assets/imgs/ira/cultura/arquitetura.webp",
+      imagem: "../../../assets/imgs/republicaC/cultura/cerveja.jpg",
       texto:
-        "Mesquitas, palácios e jardins históricos demonstram a riqueza arquitetônica e artística iraniana.",
+        "É o país com o maior consumo per capita de cerveja do mundo. Berço do estilo Pilsen, beber cerveja é um ritual social sagrado, com tabernas medievais que servem a bebida mais barata que a água.",
     },
 
     {
-      imagem: "../assets/imgs/ira/cultura/tapetes.jpg",
+      imagem: "../../../assets/imgs/republicaC/cultura/cristal.jpg",
       texto:
-        "Os tapetes persas são famosos mundialmente pela qualidade artesanal e pelos detalhes de seus desenhos.",
+        "O Cristal de Boêmia é famoso mundialmente por sua pureza e lapidação manual.",
     },
 
     {
-      imagem: "../assets/imgs/ira/cultura/nowruz.jpg",
+      imagem: "../../../assets/imgs/republicaC/cultura/franz.png",
       texto:
-        "O Nowruz, celebrado no início da primavera, é uma das festas mais importantes da cultura iraniana.",
-    },
-
-    {
-      imagem: "../assets/imgs/ira/cultura/deserto.jpg",
-      texto:
-        "O Irã apresenta paisagens variadas que incluem desertos, montanhas e regiões férteis de grande beleza natural.",
+        "Terra natal de escritores revolucionários como Franz Kafka e Milan Kundera.",
     },
   ],
 
-  marrocos: [
+  jordania: [
     {
-      imagem: "../assets/imgs/marrocos/cultura/mercado.jpg",
+      imagem: "../../../assets/imgs/jordania/cultura/recep.webp",
       texto:
-        "Os mercados tradicionais marroquinos, conhecidos como souks, são centros de comércio e expressão cultural.",
+        "Para os jordanianos, receber bem é um dever sagrado. É uma tradição cultural servir o café árabe com cardamomo.",
     },
 
     {
-      imagem: "../assets/imgs/marrocos/cultura/arquitetura.jpg",
+      imagem: "../../../assets/imgs/jordania/cultura/petra.webp",
       texto:
-        "A arquitetura marroquina combina influências árabes, africanas e berberes em palácios, mesquitas e medinas.",
+        "A icônica cidade de Petra, esculpida nas rochas pelos nabateus, e o deserto de Wadi Rum definem a identidade visual e o orgulho cultural do país.",
     },
 
     {
-      imagem: "../assets/imgs/marrocos/cultura/culinaria.jpg",
+      imagem: "../../../assets/imgs/jordania/cultura/mansaf.jpg",
       texto:
-        "Pratos como cuscuz e tajine fazem parte da rica culinária tradicional do Marrocos.",
+        "O prato nacional é feito de cordeiro cozido em um molho de iogurte seco fermentado, servido com arroz e pinhões.",
     },
 
     {
-      imagem: "../assets/imgs/marrocos/cultura/festival.jpg",
+      imagem: "../../../assets/imgs/jordania/cultura/mosaico.jpg",
       texto:
-        "Festivais de música, dança e tradições populares celebram a diversidade cultural do povo marroquino.",
-    },
-
-    {
-      imagem: "../assets/imgs/marrocos/cultura/deserto.webp",
-      texto:
-        "O Deserto do Saara e as montanhas do Atlas estão entre as paisagens mais conhecidas do Marrocos.",
+        "A cidade de Madaba é o centro cultural dos mosaicos bizantinos e omíadas, abrigando o mapa de mosaico mais antigo do mundo da Terra Santa.",
     },
   ],
 
-  novazelandia: [
+  austria: [
     {
-      imagem: "../assets/imgs/novazelandia/cultura/maori.png",
+      imagem: "../../../assets/imgs/austria/cultura/beet.jpg",
       texto:
-        "A cultura maori é uma das principais bases da identidade nacional da Nova Zelândia e permanece viva até hoje.",
+        "Viena e Salzburgo foram o lar de gênios como Mozart, Beethoven, Strauss e Schubert.",
     },
 
     {
-      imagem: "../assets/imgs/novazelandia/cultura/haka.webp",
+      imagem: "../../../assets/imgs/austria/cultura/cafe.jpg",
       texto:
-        "A haka, dança tradicional maori, tornou-se um símbolo cultural conhecido mundialmente.",
+        "Listada como Patrimônio Imaterial da UNESCO, a ida ao café é um ritual.",
     },
 
     {
-      imagem: "../assets/imgs/novazelandia/cultura/rugby.jpg",
+      imagem: "../../../assets/imgs/austria/cultura/taberna.avif",
       texto:
-        "O rugby ocupa um papel importante na sociedade neozelandesa e faz parte da cultura esportiva do país.",
+        "Heuriger: São tabernas rústicas e sazonais operadas por viticultores locais, principalmente nos arredores de Viena.",
     },
 
     {
-      imagem: "../assets/imgs/novazelandia/cultura/arte.jpg",
+      imagem: "../../../assets/imgs/austria/cultura/pintura.webp",
       texto:
-        "A arte e o artesanato maori utilizam esculturas e padrões tradicionais que representam a história de seus povos.",
+        "Palácios imperiais barrocos contrastam com as pinturas simbolistas de Gustav Klimt e o movimento da Secessão Vienense.",
+    },
+  ],
+
+  argentina: [
+    {
+      imagem: "../../../assets/imgs/argentina/cultura/mate.webp",
+      texto:
+        "Muito mais que uma bebida, é um ato social. O chimarrão é passado de mão em mão em uma roda.",
     },
 
     {
-      imagem: "../assets/imgs/novazelandia/cultura/paisagem.jpg",
+      imagem: "../../../assets/imgs/argentina/cultura/cafe.webp",
       texto:
-        "A Nova Zelândia possui paisagens naturais impressionantes, com montanhas, lagos, vulcões e fiordes famosos mundialmente.",
+        "Buenos Aires é uma das cidades com mais cafeterias e livrarias per capita do mundo.",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argentina/cultura/psi.webp",
+      texto:
+        "A Argentina tem um dos maiores números de psicólogos e psicanalistas por habitante do mundo.",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argentina/cultura/patoEsporte.jfif",
+      texto:
+        "O esporte oficial do país é o Pato, uma modalidade equestre tradicional que mistura polo e basquete.",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argentina/cultura/culinariaA.jpg",
+      texto:
+        "A culinária do país é fortemente moldada pela imigração italiana. Pratos como milanesa, pizzas e massas fazem parte do cardápio cotidiano.",
+    },
+  ],
+
+  argelia: [
+    {
+      imagem: "../../../assets/imgs/argelia/cultura/casamento.jpg",
+      texto:
+        "Os casamentos tradicionais argelinos são celebrações monumentais que costumam durar vários dias",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argelia/cultura/cuscuz.jpg",
+      texto:
+        "O cuscuz é a base da alimentação e consumido em quase todas as refeições.",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argelia/cultura/roupa.jfif",
+      texto:
+        "As roupas tradicionais são deslumbrantes e variam por região.",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argelia/cultura/ruasArg.avif",
+      texto:
+        "É possível ver a mistura perfeita de edifícios mouriscos, ruelas estreitas nas Medinas e prédios com fachadas clássicas europeias",
+    },
+
+    {
+      imagem: "../../../assets/imgs/argelia/cultura/chaVerde.jpg",
+      texto:
+        "Oferecer chá de menta é um sinal sagrado de boas-vindas e hospitalidade.",
     },
   ],
 };

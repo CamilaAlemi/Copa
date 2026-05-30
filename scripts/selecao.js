@@ -241,7 +241,7 @@ const selecoes = {
 
     {
       codigo: "BEL - 020",
-      imagem: "../../../assets/imgs/belgica/selecao/fernandezPardo.jpg",
+      imagem: "../../../assets/imgs/belgica/selecao/fernandezPardo.avif",
       posicao: "ATACANTE",
       nome: "Mathias Fernandez-Pardo",
       cidade: "Bélgica",
@@ -327,7 +327,7 @@ const selecoes = {
   brasil: [
     {
       codigo: "BRA - 012",
-      imagem: "../assets/imgs/Brasil/selecao/ederson_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/ederson_SB.jpg",
       posicao: "GOLEIRO",
       nome: "Ederson",
       cidade: "Osasco, Brasil",
@@ -339,7 +339,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 023",
-      imagem: "../assets/imgs/Brasil/selecao/weverton_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/weverton_SB.jpg",
       posicao: "GOLEIRO",
       nome: "Weverton",
       cidade: "Rio Branco, Brasil",
@@ -350,7 +350,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 001",
-      imagem: "../assets/imgs/Brasil/selecao/alisson_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/alisson_SB.jpg",
       posicao: "GOLEIRO",
       nome: "Alisson",
       cidade: "Novo Hamburgo, Brasil",
@@ -361,7 +361,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 003",
-      imagem: "../assets/imgs/Brasil/selecao/bremer_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/bremer_SB.webp",
       posicao: "ZAGUEIRO",
       nome: "Bremer",
       cidade: "Itapitanga, Brasil",
@@ -373,7 +373,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 014",
-      imagem: "../assets/imgs/Brasil/selecao/gabrielMagalhaes_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/gabrielMagalhaes_SB.webp",
       posicao: "ZAGUEIRO",
       nome: "Gabriel Magalhães",
       cidade: "São Paulo, Brasil",
@@ -385,7 +385,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 002",
-      imagem: "../assets/imgs/Brasil/selecao/danilo_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/danilo_SB.jpg",
       posicao: "LATERAL",
       nome: "Danilo",
       cidade: "Bicas, Brasil",
@@ -396,7 +396,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 004",
-      imagem: "../assets/imgs/Brasil/selecao/marquinhos.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/marquinhos.webp",
       posicao: "ZAGUEIRO",
       nome: "Marquinhos",
       cidade: "São Paulo, Brasil",
@@ -408,7 +408,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 013",
-      imagem: "../assets/imgs/Brasil/selecao/ibanez_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/ibanez_SB.webp",
       posicao: "ZAGUEIRO",
       nome: "Ibañez",
       cidade: "Canela, Brasil",
@@ -420,7 +420,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 015",
-      imagem: "../assets/imgs/Brasil/selecao/leoPereira_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/leoPereira_SB.webp",
       posicao: "ZAGUEIRO",
       nome: "Léo Pereira",
       cidade: "Curitiba, Brasil",
@@ -432,7 +432,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 016",
-      imagem: "../assets/imgs/Brasil/selecao/douglasantos.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/douglasantos.webp",
       posicao: "LATERAL",
       nome: "Douglas Santos",
       cidade: "João Pessoa, Brasil",
@@ -444,7 +444,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 024",
-      imagem: "../assets/imgs/Brasil/selecao/wesley_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/wesley_SB.jpg",
       posicao: "LATERAL",
       nome: "Wesley",
       cidade: "Açailândia, Brasil",
@@ -455,7 +455,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 025",
-      imagem: "../assets/imgs/Brasil/selecao/daniloSantosBotafogo_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/daniloSantosBotafogo_SB.jpg",
       posicao: "VOLANTE",
       nome: "Danilo Santos",
       cidade: "Salvador, Brasil",
@@ -467,7 +467,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 026",
-      imagem: "../assets/imgs/Brasil/selecao/fabinho_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/fabinho_SB.jpg",
       posicao: "VOLANTE",
       nome: "Fabinho",
       cidade: "Campinas, Brasil",
@@ -479,7 +479,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 006",
-      imagem: "../assets/imgs/Brasil/selecao/alex_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/alex_SB.jpg",
       posicao: "LATERAL",
       nome: "Alex Sandro",
       cidade: "Catanduva, Brasil",
@@ -490,7 +490,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 027",
-      imagem: "../assets/imgs/Brasil/selecao/igorthiago_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/igorthiago_SB.webp",
       posicao: "ATACANTE",
       nome: "Igor Thiago",
       cidade: "Gama, Brasil",
@@ -502,7 +502,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 007",
-      imagem: "../assets/imgs/Brasil/selecao/raphinha_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/raphinha_SB.webp",
       posicao: "PONTA",
       nome: "Raphinha",
       cidade: "Porto Alegre, Brasil",
@@ -514,7 +514,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 010",
-      imagem: "../assets/imgs/Brasil/selecao/viniJr_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/viniJr_SB.webp",
       posicao: "ATACANTE",
       nome: "Vini Jr.",
       cidade: "São Gonçalo, Brasil",
@@ -525,7 +525,7 @@ const selecoes = {
     },
     {
       codigo: "BRA - 005",
-      imagem: "../assets/imgs/Brasil/selecao/casemiro.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/casemiro.webp",
       posicao: "VOLANTE",
       nome: "Casemiro",
       cidade: "São José dos Campos, Brasil",
@@ -537,7 +537,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 008",
-      imagem: "../assets/imgs/Brasil/selecao/brunoGuimaraes_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/brunoGuimaraes_SB.jpg",
       posicao: "MEIA",
       nome: "Bruno Guimarães",
       cidade: "Rio de Janeiro, Brasil",
@@ -549,7 +549,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 017",
-      imagem: "../assets/imgs/Brasil/selecao/lucasPaqueta_SB.webp",
+      imagem: "../../../assets/imgs/Brasil/selecao/lucasPaqueta_SB.webp",
       posicao: "MEIA",
       nome: "Lucas Paquetá",
       cidade: "Rio de Janeiro, Brasil",
@@ -561,7 +561,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 011",
-      imagem: "../assets/imgs/Brasil/selecao/neymar_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/neymar_SB.jpg",
       posicao: "ATACANTE",
       nome: "Neymar",
       cidade: "Mogi das Cruzes, Brasil",
@@ -573,7 +573,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 021",
-      imagem: "../assets/imgs/Brasil/selecao/endrick_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/endrick_SB.jpg",
       posicao: "ATACANTE",
       nome: "Endrick",
       cidade: "Taguatinga, Brasil",
@@ -585,7 +585,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 022",
-      imagem: "../assets/imgs/Brasil/selecao/gabrielMartinelli_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/gabrielMartinelli_SB.jpg",
       posicao: "ATACANTE",
       nome: "Gabriel Martinelli",
       cidade: "Guarulhos, Brasil",
@@ -597,7 +597,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 018",
-      imagem: "../assets/imgs/Brasil/selecao/mateuscunha.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/mateuscunha.jpg",
       posicao: "ATACANTE",
       nome: "Matheus Cunha",
       cidade: "João Pessoa, Brasil",
@@ -609,7 +609,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 019",
-      imagem: "../assets/imgs/Brasil/selecao/luisHenrique_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/luisHenrique_SB.jpg",
       posicao: "ATACANTE",
       nome: "Luiz Henrique",
       cidade: "Petrópolis, Brasil",
@@ -621,7 +621,7 @@ const selecoes = {
 
     {
       codigo: "BRA - 020",
-      imagem: "../assets/imgs/Brasil/selecao/rayan_SB.jpg",
+      imagem: "../../../assets/imgs/Brasil/selecao/rayan_SB.jpg",
       posicao: "ATACANTE",
       nome: "Rayan",
       cidade: "Rio de Janeiro, Brasil",
@@ -635,7 +635,7 @@ const selecoes = {
   egito: [
     {
       codigo: "EGY - TEC",
-      imagem: "../../assets/imgs/egito/selecao/hossa.webp",
+      imagem: "../../../assets/imgs/egito/selecao/hossa.webp",
       posicao: "TREINADOR",
       nome: "Hossam Hassan",
       cidade: "Helwan, Egito",
@@ -647,7 +647,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 001",
-      imagem: "../../assets/imgs/egito/selecao/elshena.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/elshena.jpg",
       posicao: "GOLEIRO",
       nome: "Mohamed El Shenawy",
       cidade: "Al-Hamool, Egito",
@@ -659,7 +659,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 002",
-      imagem: "../../assets/imgs/egito/selecao/shobeir.webp",
+      imagem: "../../../assets/imgs/egito/selecao/shobeir.webp",
       posicao: "GOLEIRO",
       nome: "Mostafa Shobeir",
       cidade: "Cairo, Egito",
@@ -671,7 +671,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 003",
-      imagem: "../../assets/imgs/egito/selecao/soliman.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/soliman.jpg",
       posicao: "GOLEIRO",
       nome: "El Mahdy Soliman",
       cidade: "Egito",
@@ -683,7 +683,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 004",
-      imagem: "../../assets/imgs/egito/selecao/alaa.webp",
+      imagem: "../../../assets/imgs/egito/selecao/alaa.webp",
       posicao: "GOLEIRO",
       nome: "Mohamed Alaa",
       cidade: "Egito",
@@ -695,7 +695,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 005",
-      imagem: "../../assets/imgs/egito/selecao/hany.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/hany.jpg",
       posicao: "LATERAL",
       nome: "Mohamed Hany",
       cidade: "Cairo, Egito",
@@ -707,7 +707,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 006",
-      imagem: "../../assets/imgs/egito/selecao/tarek.webp",
+      imagem: "../../../assets/imgs/egito/selecao/tarek.webp",
       posicao: "ZAGUEIRO",
       nome: "Tarek Alaa",
       cidade: "Egito",
@@ -719,7 +719,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 007",
-      imagem: "../../assets/imgs/egito/selecao/hamdifathi.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/hamdifathi.jpg",
       posicao: "VOLANTE",
       nome: "Hamdi Fathi",
       cidade: "Beheira, Egito",
@@ -731,7 +731,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 008",
-      imagem: "../../assets/imgs/egito/selecao/ramyrabia.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/ramyrabia.jpg",
       posicao: "ZAGUEIRO",
       nome: "Ramy Rabia",
       cidade: "Cairo, Egito",
@@ -743,7 +743,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 009",
-      imagem: "../../assets/imgs/egito/selecao/yasser.webp",
+      imagem: "../../../assets/imgs/egito/selecao/yasser.webp",
       posicao: "ZAGUEIRO",
       nome: "Yasser Ibrahim",
       cidade: "Mansoura, Egito",
@@ -755,7 +755,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 010",
-      imagem: "../../assets/imgs/egito/selecao/hossamabde.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/hossamabde.jpg",
       posicao: "ZAGUEIRO",
       nome: "Hossam Abdelmaguid",
       cidade: "Egito",
@@ -767,7 +767,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 011",
-      imagem: "../../assets/imgs/egito/selecao/abdelmonem.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/abdelmonem.jpg",
       posicao: "ZAGUEIRO",
       nome: "Mohamed Abdelmonem",
       cidade: "Egito",
@@ -779,7 +779,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 012",
-      imagem: "../../assets/imgs/egito/selecao/fatouh.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/fatouh.jpg",
       posicao: "LATERAL",
       nome: "Ahmed Fatouh",
       cidade: "Egito",
@@ -791,7 +791,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 013",
-      imagem: "../../assets/imgs/egito/selecao/karimhafez.png",
+      imagem: "../../../assets/imgs/egito/selecao/karimhafez.png",
       posicao: "LATERAL",
       nome: "Karim Hafez",
       cidade: "Cairo, Egito",
@@ -803,7 +803,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 014",
-      imagem: "../../assets/imgs/egito/selecao/marwanattia.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/marwanattia.jpg",
       posicao: "VOLANTE",
       nome: "Marwan Attia",
       cidade: "Egito",
@@ -815,7 +815,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 015",
-      imagem: "../../assets/imgs/egito/selecao/mohannadlasheen.webp",
+      imagem: "../../../assets/imgs/egito/selecao/mohannadlasheen.webp",
       posicao: "VOLANTE",
       nome: "Mohannad Lasheen",
       cidade: "Egito",
@@ -827,7 +827,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 016",
-      imagem: "../../assets/imgs/egito/selecao/nabildunga.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/nabidunga.jpg",
       posicao: "VOLANTE",
       nome: "Nabil Emad Dunga",
       cidade: "Egito",
@@ -839,7 +839,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 017",
-      imagem: "../../assets/imgs/egito/selecao/mahmoudSaber.webp",
+      imagem: "../../../assets/imgs/egito/selecao/saber.png",
       posicao: "MEIA",
       nome: "Mahmoud Saber",
       cidade: "Egito",
@@ -851,7 +851,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 018",
-      imagem: "../../assets/imgs/egito/selecao/zizo.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/zizo.jpg",
       posicao: "MEIA",
       nome: "Ahmed Sayed Zizo",
       cidade: "Minya, Egito",
@@ -863,7 +863,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 019",
-      imagem: "../../assets/imgs/egito/selecao/trezeguet.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/trezeguet.jpg",
       posicao: "PONTA",
       nome: "Mahmoud Trezeguet",
       cidade: "Kafr El Sheikh, Egito",
@@ -875,7 +875,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 020",
-      imagem: "../../assets/imgs/egito/selecao/ashour.webp",
+      imagem: "../../../assets/imgs/egito/selecao/ashour.webp",
       posicao: "MEIA",
       nome: "Emam Ashour",
       cidade: "Egito",
@@ -887,7 +887,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 021",
-      imagem: "../../assets/imgs/egito/selecao/mostafaziko.webp",
+      imagem: "../../../assets/imgs/egito/selecao/mostafaziko.webp",
       posicao: "ATACANTE",
       nome: "Mostafa Ziko",
       cidade: "Egito",
@@ -899,7 +899,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 022",
-      imagem: "../../assets/imgs/egito/selecao/ibrahimAdel.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/ibrahimAdel.jpg",
       posicao: "PONTA",
       nome: "Ibrahim Adel",
       cidade: "Port Said, Egito",
@@ -911,7 +911,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 023",
-      imagem: "../../assets/imgs/egito/selecao/haithamHassan.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/haithamHassan.jpg",
       posicao: "PONTA",
       nome: "Haitham Hassan",
       cidade: "França",
@@ -923,7 +923,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 024",
-      imagem: "../../assets/imgs/egito/selecao/mohamedSalah.jpg",
+      imagem: "../../../assets/imgs/egito/selecao/mohamedSalah.jpg",
       posicao: "ATACANTE",
       nome: "Mohamed Salah",
       cidade: "Nagrig, Egito",
@@ -935,7 +935,7 @@ const selecoes = {
 
     {
       codigo: "EGY - 025",
-      imagem: "../../assets/imgs/egito/selecao/omarM.png",
+      imagem: "../../../assets/imgs/egito/selecao/omarM.png",
       posicao: "ATACANTE",
       nome: "Omar Marmoush",
       cidade: "Cairo, Egito",
@@ -949,7 +949,7 @@ const selecoes = {
   escocia: [
     {
       codigo: "SCO - TEC",
-      imagem: "../../assets/imgs/escocia/selecao/steveclarke.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/steveclarke.jpg",
       posicao: "TREINADOR",
       nome: "Steve Clarke",
       cidade: "Saltcoats, Escócia",
@@ -960,7 +960,7 @@ const selecoes = {
     },
     {
       codigo: "SCO - 001",
-      imagem: "../../assets/imgs/escocia/selecao/craigGordon.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/craigGordon.webp",
       posicao: "GOLEIRO",
       nome: "Craig Gordon",
       cidade: "Edimburgo, Escócia",
@@ -972,7 +972,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 002",
-      imagem: "../../assets/imgs/escocia/selecao/angusGunn.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/angusGunn.jpg",
       posicao: "GOLEIRO",
       nome: "Angus Gunn",
       cidade: "Norwich, Inglaterra",
@@ -984,7 +984,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 003",
-      imagem: "../../assets/imgs/escocia/selecao/liamKelly.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/liamKelly.webp",
       posicao: "GOLEIRO",
       nome: "Liam Kelly",
       cidade: "Glasgow, Escócia",
@@ -996,7 +996,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 004",
-      imagem: "../../assets/imgs/escocia/selecao/grantHanley.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/grantHanley.webp",
       posicao: "ZAGUEIRO",
       nome: "Grant Hanley",
       cidade: "Dumfries, Escócia",
@@ -1008,7 +1008,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 005",
-      imagem: "../../assets/imgs/escocia/selecao/jackHendry.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/jackHendry.webp",
       posicao: "ZAGUEIRO",
       nome: "Jack Hendry",
       cidade: "Glasgow, Escócia",
@@ -1020,7 +1020,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 006",
-      imagem: "../../assets/imgs/escocia/selecao/aaronHickey.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/aaronHickey.webp",
       posicao: "LATERAL",
       nome: "Aaron Hickey",
       cidade: "Glasgow, Escócia",
@@ -1032,7 +1032,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 007",
-      imagem: "../../assets/imgs/escocia/selecao/domHyam.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/domHyam.webp",
       posicao: "ZAGUEIRO",
       nome: "Dom Hyam",
       cidade: "Basingstoke, Inglaterra",
@@ -1044,7 +1044,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 008",
-      imagem: "../../assets/imgs/escocia/selecao/scottMcKenna.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/scottMcKenna.jpg",
       posicao: "ZAGUEIRO",
       nome: "Scott McKenna",
       cidade: "Kirriemuir, Escócia",
@@ -1055,20 +1055,8 @@ const selecoes = {
     },
 
     {
-      codigo: "SCO - 009",
-      imagem: "../../assets/imgs/escocia/selecao/nathanPatterson.png",
-      posicao: "LATERAL",
-      nome: "Nathan Patterson",
-      cidade: "Glasgow, Escócia",
-      copas: "1ª",
-      idade: "24",
-      destaque: "Apoio",
-      cores: ["#0065BD", "#FFFFFF", "#0065BD"],
-    },
-
-    {
       codigo: "SCO - 010",
-      imagem: "../../assets/imgs/escocia/selecao/anthonyRalston.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/anthonyRalston.jpg",
       posicao: "LATERAL",
       nome: "Anthony Ralston",
       cidade: "Glasgow, Escócia",
@@ -1080,7 +1068,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 011",
-      imagem: "../../assets/imgs/escocia/selecao/andyRobertson.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/andyRobertson.jpg",
       posicao: "LATERAL",
       nome: "Andy Robertson",
       cidade: "Glasgow, Escócia",
@@ -1091,20 +1079,8 @@ const selecoes = {
     },
 
     {
-      codigo: "SCO - 012",
-      imagem: "../../assets/imgs/escocia/selecao/johnSouttar.webp",
-      posicao: "ZAGUEIRO",
-      nome: "John Souttar",
-      cidade: "Aberdeen, Escócia",
-      copas: "1ª",
-      idade: "29",
-      destaque: "Impulsão",
-      cores: ["#0065BD", "#FFFFFF", "#0065BD"],
-    },
-
-    {
       codigo: "SCO - 013",
-      imagem: "../../assets/imgs/escocia/selecao/kieranTierney.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/kieranTierney.jpg",
       posicao: "LATERAL",
       nome: "Kieran Tierney",
       cidade: "Douglas, Ilha de Man",
@@ -1116,7 +1092,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 014",
-      imagem: "../../assets/imgs/escocia/selecao/ryanChristie.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/ryanChristie.webp",
       posicao: "MEIA",
       nome: "Ryan Christie",
       cidade: "Inverness, Escócia",
@@ -1128,7 +1104,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 015",
-      imagem: "../../assets/imgs/escocia/selecao/findlayCurtis.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/findlayCurtis.webp",
       posicao: "MEIA",
       nome: "Findlay Curtis",
       cidade: "Escócia",
@@ -1140,7 +1116,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 016",
-      imagem: "../../assets/imgs/escocia/selecao/lewisFerguson.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/lewisFerguson.webp",
       posicao: "MEIA",
       nome: "Lewis Ferguson",
       cidade: "Hamilton, Escócia",
@@ -1152,7 +1128,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 017",
-      imagem: "../../assets/imgs/escocia/selecao/benDoak.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/benDoak.jpg",
       posicao: "PONTA",
       nome: "Ben Doak",
       cidade: "Dalry, Escócia",
@@ -1164,7 +1140,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 018",
-      imagem: "../../assets/imgs/escocia/selecao/billyGilmour.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/billyGilmour.webp",
       posicao: "MEIA",
       nome: "Billy Gilmour",
       cidade: "Irvine, Escócia",
@@ -1176,7 +1152,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 019",
-      imagem: "../../assets/imgs/escocia/selecao/johnMcGinn.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/johnMcGinn.webp",
       posicao: "MEIA",
       nome: "John McGinn",
       cidade: "Glasgow, Escócia",
@@ -1188,7 +1164,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 020",
-      imagem: "../../assets/imgs/escocia/selecao/kennyMcLean.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/kennyMcLean.webp",
       posicao: "VOLANTE",
       nome: "Kenny McLean",
       cidade: "Aberdeen, Escócia",
@@ -1200,7 +1176,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 021",
-      imagem: "../../assets/imgs/escocia/selecao/scottMcTominay.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/scottMcTominay.jpg",
       posicao: "VOLANTE",
       nome: "Scott McTominay",
       cidade: "Lancaster, Inglaterra",
@@ -1212,7 +1188,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 022",
-      imagem: "../../assets/imgs/escocia/selecao/cheAdams.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/cheAdams.webp",
       posicao: "ATACANTE",
       nome: "Che Adams",
       cidade: "Leicester, Inglaterra",
@@ -1224,7 +1200,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 023",
-      imagem: "../../assets/imgs/escocia/selecao/lyndonDykes.png",
+      imagem: "../../../assets/imgs/escocia/selecao/lyndonDykes.png",
       posicao: "ATACANTE",
       nome: "Lyndon Dykes",
       cidade: "Gold Coast, Austrália",
@@ -1236,7 +1212,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 024",
-      imagem: "../../assets/imgs/escocia/selecao/georgeHirst.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/georgeHirst.jpg",
       posicao: "ATACANTE",
       nome: "George Hirst",
       cidade: "Sheffield, Inglaterra",
@@ -1248,7 +1224,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 025",
-      imagem: "../../assets/imgs/escocia/selecao/lawrenceShankland.jpg",
+      imagem: "../../../assets/imgs/escocia/selecao/lawrenceShankland.jpg",
       posicao: "ATACANTE",
       nome: "Lawrence Shankland",
       cidade: "Glasgow, Escócia",
@@ -1260,7 +1236,7 @@ const selecoes = {
 
     {
       codigo: "SCO - 026",
-      imagem: "../../assets/imgs/escocia/selecao/rossStewart.webp",
+      imagem: "../../../assets/imgs/escocia/selecao/rossStewart.webp",
       posicao: "ATACANTE",
       nome: "Ross Stewart",
       cidade: "Irvine, Escócia",
@@ -1274,7 +1250,7 @@ const selecoes = {
   haiti: [
     {
       codigo: "HAI - TEC",
-      imagem: "../../assets/imgs/Haiti/selecao/sebastian.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/sebastian.webp",
       posicao: "TREINADOR",
       nome: "Sébastien Migné",
       cidade: "Paris, França",
@@ -1285,7 +1261,7 @@ const selecoes = {
     },
     {
       codigo: "HAI - 001",
-      imagem: "../../assets/imgs/Haiti/selecao/johnnyPlacide.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/johnyPlacide.jpg",
       posicao: "GOLEIRO",
       nome: "Johnny Placide",
       cidade: "Montfermeil, França",
@@ -1297,7 +1273,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 002",
-      imagem: "../../assets/imgs/Haiti/selecao/alexandrePierre.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/alexandrePierre.jpg",
       posicao: "GOLEIRO",
       nome: "Alexandre Pierre",
       cidade: "França",
@@ -1309,7 +1285,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 003",
-      imagem: "../../assets/imgs/Haiti/selecao/josueDuverger.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/josueDuverger.jpg",
       posicao: "GOLEIRO",
       nome: "Josué Duverger",
       cidade: "Montpellier, França",
@@ -1321,7 +1297,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 004",
-      imagem: "../../assets/imgs/Haiti/selecao/carlensArcus.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/carlensArcus.jpg",
       posicao: "LATERAL",
       nome: "Carlens Arcus",
       cidade: "Port-au-Prince, Haiti",
@@ -1333,7 +1309,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 005",
-      imagem: "../../assets/imgs/Haiti/selecao/wilguens.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/wilguens.webp",
       posicao: "LATERAL",
       nome: "Wilguens Paugain",
       cidade: "Haiti",
@@ -1345,7 +1321,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 006",
-      imagem: "../../assets/imgs/Haiti/selecao/duke.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/duke.webp",
       posicao: "LATERAL",
       nome: "Duke Lacroix",
       cidade: "New Hyde Park, EUA",
@@ -1357,7 +1333,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 007",
-      imagem: "../../assets/imgs/Haiti/selecao/martin.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/martin.webp",
       posicao: "ZAGUEIRO",
       nome: "Martin Expérience",
       cidade: "Les Abymes, França",
@@ -1369,7 +1345,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 008",
-      imagem: "../../assets/imgs/Haiti/selecao/jk.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/jk.webp",
       posicao: "ZAGUEIRO",
       nome: "JK Duverne",
       cidade: "Paris, França",
@@ -1381,7 +1357,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 009",
-      imagem: "../../assets/imgs/Haiti/selecao/ricardo.png",
+      imagem: "../../../assets/imgs/Haiti/selecao/ricardo.png",
       posicao: "ZAGUEIRO",
       nome: "Ricardo Adé",
       cidade: "Saint-Marc, Haiti",
@@ -1393,7 +1369,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 010",
-      imagem: "../../assets/imgs/Haiti/selecao/hannes.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/hannes.jpg",
       posicao: "ZAGUEIRO",
       nome: "Hannes Delcroix",
       cidade: "Petion-Ville, Haiti",
@@ -1405,7 +1381,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 011",
-      imagem: "../../assets/imgs/Haiti/selecao/keeto.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/keeto.jpg",
       posicao: "ZAGUEIRO",
       nome: "Keeto Thermoncy",
       cidade: "Haiti",
@@ -1417,7 +1393,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 012",
-      imagem: "../../assets/imgs/Haiti/selecao/leverton.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/leverton.webp",
       posicao: "VOLANTE",
       nome: "Leverton Pierre",
       cidade: "Tabarre, Haiti",
@@ -1429,7 +1405,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 013",
-      imagem: "../../assets/imgs/Haiti/selecao/carl.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/carl.webp",
       posicao: "VOLANTE",
       nome: "Carl-Fred Sainthe",
       cidade: "Haiti",
@@ -1441,7 +1417,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 014",
-      imagem: "../../assets/imgs/Haiti/selecao/jeanJacques.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/jeanJacques.jpg",
       posicao: "VOLANTE",
       nome: "Jean-Jacques Danley",
       cidade: "Petion-Ville, Haiti",
@@ -1453,7 +1429,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 015",
-      imagem: "../../assets/imgs/Haiti/selecao/jeanricner.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/jeanricner.jpg",
       posicao: "MEIA",
       nome: "Jean-Ricner Bellegarde",
       cidade: "Colombes, França",
@@ -1465,7 +1441,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 016",
-      imagem: "../../assets/imgs/Haiti/selecao/pierreW.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/pierreW.jpg",
       posicao: "MEIA",
       nome: "Pierre Woodensky",
       cidade: "Haiti",
@@ -1477,7 +1453,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 017",
-      imagem: "../../assets/imgs/Haiti/selecao/dominiqueS.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/domoniqueS.jpg",
       posicao: "MEIA",
       nome: "Dominique Simon",
       cidade: "Haiti",
@@ -1489,7 +1465,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 018",
-      imagem: "../../assets/imgs/Haiti/selecao/louicius.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/louicius.jpg",
       posicao: "ATACANTE",
       nome: "Louicius Deedson",
       cidade: "Tabarre, Haiti",
@@ -1501,7 +1477,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 019",
-      imagem: "../../assets/imgs/Haiti/selecao/rubenP.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/rubenP.jpg",
       posicao: "PONTA",
       nome: "Ruben Providence",
       cidade: "França",
@@ -1513,7 +1489,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 020",
-      imagem: "../../assets/imgs/Haiti/selecao/josueC.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/josueC.webp",
       posicao: "PONTA",
       nome: "Josué Casimir",
       cidade: "Le Havre, França",
@@ -1525,7 +1501,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 021",
-      imagem: "../../assets/imgs/Haiti/selecao/derrickE.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/derrickE.jpg",
       posicao: "PONTA",
       nome: "Derrick Etienne",
       cidade: "Richmond, EUA",
@@ -1537,7 +1513,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 022",
-      imagem: "../../assets/imgs/Haiti/selecao/wilsonI.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/wilsonI.jpg",
       posicao: "ATACANTE",
       nome: "Wilson Isidor",
       cidade: "Rennes, França",
@@ -1549,7 +1525,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 023",
-      imagem: "../../assets/imgs/Haiti/selecao/duckens.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/duckens.jpg",
       posicao: "ATACANTE",
       nome: "Duckens Nazon",
       cidade: "Châtenay-Malabry, França",
@@ -1561,7 +1537,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 024",
-      imagem: "../../assets/imgs/Haiti/selecao/frantzdy.webp",
+      imagem: "../../../assets/imgs/Haiti/selecao/frantzdy.webp",
       posicao: "ATACANTE",
       nome: "Frantzdy Pierrot",
       cidade: "Cap-Haïtien, Haiti",
@@ -1573,7 +1549,7 @@ const selecoes = {
 
     {
       codigo: "HAI - 025",
-      imagem: "../../assets/imgs/Haiti/selecao/yassin.jpg",
+      imagem: "../../../assets/imgs/Haiti/selecao/yassin.jpg",
       posicao: "PONTA",
       nome: "Yassin Fortune",
       cidade: "França",
@@ -1586,8 +1562,19 @@ const selecoes = {
 
   ira: [
     {
+      codigo: "IRA - 026",
+      imagem: "../../../assets/imgs/Ira/selecao/amir.webp",
+      posicao: "TREINADOR",
+      nome: "Amir Ghalenoei",
+      cidade: "Teerã, Irã",
+      copas: "3ª",
+      idade: "62",
+      destaque: "Comando",
+      cores: ["#239F40", "#FFFFFF", "#DA0000"],
+    },
+    {
       codigo: "IRA - 001",
-      imagem: "../../assets/imgs/Ira/selecao/beiranvand.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/beiranvand.jpg",
       posicao: "GOLEIRO",
       nome: "Alireza Beiranvand",
       cidade: "Sarabias, Irã",
@@ -1599,7 +1586,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 002",
-      imagem: "../../assets/imgs/Ira/selecao/niazmand.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/niazmand.jpg",
       posicao: "GOLEIRO",
       nome: "Payam Niazmand",
       cidade: "Teerã, Irã",
@@ -1611,7 +1598,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 003",
-      imagem: "../../assets/imgs/Ira/selecao/hosseini.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/hosseini.jpg",
       posicao: "GOLEIRO",
       nome: "Hossein Hosseini",
       cidade: "Teerã, Irã",
@@ -1623,7 +1610,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 004",
-      imagem: "../../assets/imgs/Ira/selecao/moharrami.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/moharrami.jpg",
       posicao: "LATERAL",
       nome: "Sadegh Moharrami",
       cidade: "Hashtpar, Irã",
@@ -1635,7 +1622,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 005",
-      imagem: "../../assets/imgs/Ira/selecao/rezaeian.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/rezaeian.jpg",
       posicao: "LATERAL",
       nome: "Ramin Rezaeian",
       cidade: "Sari, Irã",
@@ -1647,7 +1634,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 006",
-      imagem: "../../assets/imgs/Ira/selecao/kanani.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/kanani.jpg",
       posicao: "ZAGUEIRO",
       nome: "Hossein Kanani",
       cidade: "Mahshahr, Irã",
@@ -1659,7 +1646,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 007",
-      imagem: "../../assets/imgs/Ira/selecao/khalilzadeh.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/khalilzadeh.jpg",
       posicao: "ZAGUEIRO",
       nome: "Shoja Khalilzadeh",
       cidade: "Babolsar, Irã",
@@ -1670,20 +1657,8 @@ const selecoes = {
     },
 
     {
-      codigo: "IRA - 008",
-      imagem: "../../assets/imgs/Ira/selecao/nemati.jpg",
-      posicao: "ZAGUEIRO",
-      nome: "Mohammad Nemati",
-      cidade: "Irã",
-      copas: "1ª",
-      idade: "22",
-      destaque: "Juventude",
-      cores: ["#239F40", "#FFFFFF", "#DA0000"],
-    },
-
-    {
       codigo: "IRA - 009",
-      imagem: "../../assets/imgs/Ira/selecao/noorafkan.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/noorafkan.jpg",
       posicao: "LATERAL",
       nome: "Omid Noorafkan",
       cidade: "Teerã, Irã",
@@ -1695,7 +1670,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 010",
-      imagem: "../../assets/imgs/Ira/selecao/ghoddos.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/ghoddos.jpg",
       posicao: "MEIA",
       nome: "Saman Ghoddos",
       cidade: "Malmö, Suécia",
@@ -1707,7 +1682,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 011",
-      imagem: "../../assets/imgs/Ira/selecao/gholizadeh.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/gholizadeh.jpg",
       posicao: "MEIA",
       nome: "Ali Gholizadeh",
       cidade: "Teerã, Irã",
@@ -1719,7 +1694,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 012",
-      imagem: "../../assets/imgs/Ira/selecao/ezatolahi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/ezatolahi.jpg",
       posicao: "VOLANTE",
       nome: "Saeid Ezatolahi",
       cidade: "Bandar Anzali, Irã",
@@ -1731,7 +1706,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 013",
-      imagem: "../../assets/imgs/Ira/selecao/nourollahi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/nourollahi.jpg",
       posicao: "VOLANTE",
       nome: "Ahmad Nourollahi",
       cidade: "Azadshahr, Irã",
@@ -1742,20 +1717,8 @@ const selecoes = {
     },
 
     {
-      codigo: "IRA - 014",
-      imagem: "../../assets/imgs/Ira/selecao/mohammadi.jpg",
-      posicao: "MEIA",
-      nome: "Mohammad Mohammadi",
-      cidade: "Irã",
-      copas: "1ª",
-      idade: "24",
-      destaque: "Passe",
-      cores: ["#239F40", "#FFFFFF", "#DA0000"],
-    },
-
-    {
       codigo: "IRA - 015",
-      imagem: "../../assets/imgs/Ira/selecao/jahanbakhsh.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/jahan.jpg",
       posicao: "PONTA",
       nome: "Alireza Jahanbakhsh",
       cidade: "Jirandeh, Irã",
@@ -1767,7 +1730,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 016",
-      imagem: "../../assets/imgs/Ira/selecao/torabi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/torabi.jpg",
       posicao: "PONTA",
       nome: "Mehdi Torabi",
       cidade: "Eshtehard, Irã",
@@ -1779,7 +1742,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 017",
-      imagem: "../../assets/imgs/Ira/selecao/azmoun.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/azmoun.jpg",
       posicao: "ATACANTE",
       nome: "Sardar Azmoun",
       cidade: "Gonbad-e Kavus, Irã",
@@ -1791,7 +1754,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 018",
-      imagem: "../../assets/imgs/Ira/selecao/taremi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/teremi.jpg",
       posicao: "ATACANTE",
       nome: "Mehdi Taremi",
       cidade: "Bushehr, Irã",
@@ -1803,7 +1766,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 019",
-      imagem: "../../assets/imgs/Ira/selecao/ghaedi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/ghaedi.jpg",
       posicao: "ATACANTE",
       nome: "Mehdi Ghaedi",
       cidade: "Bushehr, Irã",
@@ -1815,7 +1778,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 020",
-      imagem: "../../assets/imgs/Ira/selecao/mohebi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/mohebi.jpg",
       posicao: "ATACANTE",
       nome: "Mohammad Mohebi",
       cidade: "Bushehr, Irã",
@@ -1827,7 +1790,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 021",
-      imagem: "../../assets/imgs/Ira/selecao/ghayedi.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/ghayedi.webp",
       posicao: "ATACANTE",
       nome: "Mohammad Ghayedi",
       cidade: "Irã",
@@ -1839,7 +1802,7 @@ const selecoes = {
 
     {
       codigo: "IRA - 022",
-      imagem: "../../assets/imgs/Ira/selecao/ansarifard.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/ansarifard.jpg",
       posicao: "ATACANTE",
       nome: "Karim Ansarifard",
       cidade: "Ardabil, Irã",
@@ -1850,32 +1813,8 @@ const selecoes = {
     },
 
     {
-      codigo: "IRA - 023",
-      imagem: "../../assets/imgs/Ira/selecao/ghorbani.jpg",
-      posicao: "MEIA",
-      nome: "Mohammad Ghorbani",
-      cidade: "Irã",
-      copas: "1ª",
-      idade: "24",
-      destaque: "Dinamismo",
-      cores: ["#239F40", "#FFFFFF", "#DA0000"],
-    },
-
-    {
-      codigo: "IRA - 024",
-      imagem: "../../assets/imgs/Ira/selecao/yousefi.jpg",
-      posicao: "MEIA",
-      nome: "Yasin Yousefi",
-      cidade: "Irã",
-      copas: "1ª",
-      idade: "22",
-      destaque: "Promessa",
-      cores: ["#239F40", "#FFFFFF", "#DA0000"],
-    },
-
-    {
       codigo: "IRA - 025",
-      imagem: "../../assets/imgs/Ira/selecao/gholami.jpg",
+      imagem: "../../../assets/imgs/Ira/selecao/gholami.webp",
       posicao: "ZAGUEIRO",
       nome: "Aria Gholami",
       cidade: "Irã",
@@ -1884,24 +1823,12 @@ const selecoes = {
       destaque: "Força",
       cores: ["#239F40", "#FFFFFF", "#DA0000"],
     },
-
-    {
-      codigo: "IRA - 026",
-      imagem: "../../assets/imgs/Ira/selecao/ghalenoei.jpg",
-      posicao: "TREINADOR",
-      nome: "Amir Ghalenoei",
-      cidade: "Teerã, Irã",
-      copas: "3ª",
-      idade: "62",
-      destaque: "Comando",
-      cores: ["#239F40", "#FFFFFF", "#DA0000"],
-    },
   ],
 
   marrocos: [
     {
       codigo: "MAR - 001",
-      imagem: "../../assets/imgs/Marrocos/selecao/bounou.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/bounou.jpg",
       posicao: "GOLEIRO",
       nome: "Bounou",
       cidade: "Montreal, Canadá",
@@ -1913,7 +1840,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 002",
-      imagem: "../../assets/imgs/Marrocos/selecao/elKajoui.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/kajoui.webp",
       posicao: "GOLEIRO",
       nome: "El Kajoui",
       cidade: "Marrocos",
@@ -1925,7 +1852,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 003",
-      imagem: "../../assets/imgs/Marrocos/selecao/tagnaouti.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/targanouti.webp",
       posicao: "GOLEIRO",
       nome: "Tagnaouti",
       cidade: "Casablanca, Marrocos",
@@ -1937,7 +1864,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 004",
-      imagem: "../../assets/imgs/Marrocos/selecao/mazraoui.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/mazra.webp",
       posicao: "LATERAL",
       nome: "Mazraoui",
       cidade: "Leiderdorp, Holanda",
@@ -1949,7 +1876,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 005",
-      imagem: "../../assets/imgs/Marrocos/selecao/salahEddine.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/salah.webp",
       posicao: "LATERAL",
       nome: "Salah-Eddine",
       cidade: "Holanda",
@@ -1961,7 +1888,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 006",
-      imagem: "../../assets/imgs/Marrocos/selecao/belammari.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/belammari.webp",
       posicao: "ZAGUEIRO",
       nome: "Belammari",
       cidade: "Marrocos",
@@ -1973,7 +1900,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 007",
-      imagem: "../../assets/imgs/Marrocos/selecao/hakimi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/hakimi.webp",
       posicao: "LATERAL",
       nome: "Hakimi",
       cidade: "Madrid, Espanha",
@@ -1985,7 +1912,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 008",
-      imagem: "../../assets/imgs/Marrocos/selecao/elOuahdi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/hdi.jpg",
       posicao: "LATERAL",
       nome: "El Ouahdi",
       cidade: "Bélgica",
@@ -1997,7 +1924,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 009",
-      imagem: "../../assets/imgs/Marrocos/selecao/aguerd.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/aguerd.webp",
       posicao: "ZAGUEIRO",
       nome: "Aguerd",
       cidade: "Kenitra, Marrocos",
@@ -2009,7 +1936,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 010",
-      imagem: "../../assets/imgs/Marrocos/selecao/riad.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/riad.webp",
       posicao: "ZAGUEIRO",
       nome: "Riad",
       cidade: "Palma, Espanha",
@@ -2021,7 +1948,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 011",
-      imagem: "../../assets/imgs/Marrocos/selecao/halhal.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/halhal.webp",
       posicao: "ZAGUEIRO",
       nome: "Halhal",
       cidade: "Marrocos",
@@ -2033,7 +1960,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 012",
-      imagem: "../../assets/imgs/Marrocos/selecao/diop.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/diop.jpg",
       posicao: "ZAGUEIRO",
       nome: "Diop",
       cidade: "França",
@@ -2045,7 +1972,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 013",
-      imagem: "../../assets/imgs/Marrocos/selecao/elMourabet.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/mourabet.jpg",
       posicao: "VOLANTE",
       nome: "El Mourabet",
       cidade: "Marrocos",
@@ -2057,7 +1984,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 014",
-      imagem: "../../assets/imgs/Marrocos/selecao/bouaddi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/bouaddi.webp",
       posicao: "MEIA",
       nome: "Bouaddi",
       cidade: "França",
@@ -2069,7 +1996,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 015",
-      imagem: "../../assets/imgs/Marrocos/selecao/elAynaoui.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/ayna.jpg",
       posicao: "VOLANTE",
       nome: "El Aynaoui",
       cidade: "Nancy, França",
@@ -2081,7 +2008,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 016",
-      imagem: "../../assets/imgs/Marrocos/selecao/amrabat.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/amrabat.jpg",
       posicao: "VOLANTE",
       nome: "Amrabat",
       cidade: "Huizen, Holanda",
@@ -2093,7 +2020,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 017",
-      imagem: "../../assets/imgs/Marrocos/selecao/ounahi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/ounahi.webp",
       posicao: "MEIA",
       nome: "Ounahi",
       cidade: "Casablanca, Marrocos",
@@ -2105,7 +2032,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 018",
-      imagem: "../../assets/imgs/Marrocos/selecao/elKhannouss.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/khann.jpg",
       posicao: "MEIA",
       nome: "El Khannouss",
       cidade: "Bruxelas, Bélgica",
@@ -2117,7 +2044,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 019",
-      imagem: "../../assets/imgs/Marrocos/selecao/saibari.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/saibari.jpg",
       posicao: "MEIA",
       nome: "Saibari",
       cidade: "Terrassa, Espanha",
@@ -2129,7 +2056,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 020",
-      imagem: "../../assets/imgs/Marrocos/selecao/ezAbde.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/ezAbde.jpg",
       posicao: "ATACANTE",
       nome: "Ez Abde",
       cidade: "Beni Mellal, Marrocos",
@@ -2140,20 +2067,8 @@ const selecoes = {
     },
 
     {
-      codigo: "MAR - 021",
-      imagem: "../../assets/imgs/Marrocos/selecao/talbi.jpg",
-      posicao: "ATACANTE",
-      nome: "Talbi",
-      cidade: "Bélgica",
-      copas: "1ª",
-      idade: "20",
-      destaque: "Velocidade",
-      cores: ["#C1272D", "#006233", "#FFFFFF"],
-    },
-
-    {
       codigo: "MAR - 022",
-      imagem: "../../assets/imgs/Marrocos/selecao/rahimi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/rahimi.jpg",
       posicao: "ATACANTE",
       nome: "Rahimi",
       cidade: "Casablanca, Marrocos",
@@ -2165,7 +2080,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 023",
-      imagem: "../../assets/imgs/Marrocos/selecao/elKaabi.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/elKaabi.jpg",
       posicao: "ATACANTE",
       nome: "El Kaabi",
       cidade: "Casablanca, Marrocos",
@@ -2177,7 +2092,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 024",
-      imagem: "../../assets/imgs/Marrocos/selecao/brahimDiaz.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/brahimDiaz.jpg",
       posicao: "ATACANTE",
       nome: "Brahim Díaz",
       cidade: "Málaga, Espanha",
@@ -2189,7 +2104,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 025",
-      imagem: "../../assets/imgs/Marrocos/selecao/gessime.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/gessime.jpg",
       posicao: "ATACANTE",
       nome: "Gessime",
       cidade: "França",
@@ -2201,7 +2116,7 @@ const selecoes = {
 
     {
       codigo: "MAR - 026",
-      imagem: "../../assets/imgs/Marrocos/selecao/echghouyabe.jpg",
+      imagem: "../../../assets/imgs/marrocos/selecao/ech.jpg",
       posicao: "ATACANTE",
       nome: "Echghouyabe",
       cidade: "Marrocos",
@@ -2215,7 +2130,7 @@ const selecoes = {
   novazelandia: [
     {
       codigo: "NZL - 022",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/darrenBazeley.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/bazeley.webp",
       posicao: "TREINADOR",
       nome: "Darren Bazeley",
       cidade: "Northallerton, Inglaterra",
@@ -2227,7 +2142,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 001",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/maxCrocombe.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/crocombe.webp",
       posicao: "GOLEIRO",
       nome: "Max Crocombe",
       cidade: "Christchurch, Nova Zelândia",
@@ -2239,7 +2154,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 002",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/alexPaulsen.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/paulsen.webp",
       posicao: "GOLEIRO",
       nome: "Alex Paulsen",
       cidade: "Auckland, Nova Zelândia",
@@ -2251,7 +2166,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 003",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/michaelWoud.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/woud.webp",
       posicao: "GOLEIRO",
       nome: "Michael Woud",
       cidade: "Auckland, Nova Zelândia",
@@ -2263,7 +2178,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 004",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/tylerBindon.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/bindon.webp",
       posicao: "ZAGUEIRO",
       nome: "Tyler Bindon",
       cidade: "Auckland, Nova Zelândia",
@@ -2275,7 +2190,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 005",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/michaelBoxall.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/boxall.webp",
       posicao: "ZAGUEIRO",
       nome: "Michael Boxall",
       cidade: "Auckland, Nova Zelândia",
@@ -2287,7 +2202,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 006",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/liberatoCacace.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/cacace.webp",
       posicao: "LATERAL",
       nome: "Liberato Cacace",
       cidade: "Wellington, Nova Zelândia",
@@ -2299,7 +2214,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 007",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/francisDeVries.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/vries.webp",
       posicao: "LATERAL",
       nome: "Francis de Vries",
       cidade: "Christchurch, Nova Zelândia",
@@ -2311,7 +2226,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 008",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/callanElliot.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/elliot.jpg",
       posicao: "LATERAL",
       nome: "Callan Elliot",
       cidade: "Wellington, Nova Zelândia",
@@ -2323,7 +2238,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 009",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/timPayne.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/payne.jpg",
       posicao: "LATERAL",
       nome: "Tim Payne",
       cidade: "Auckland, Nova Zelândia",
@@ -2335,7 +2250,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 010",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/nandoPijnaker.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/pij.jpg",
       posicao: "ZAGUEIRO",
       nome: "Nando Pijnaker",
       cidade: "Auckland, Nova Zelândia",
@@ -2347,7 +2262,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 011",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/tommySmith.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/smith.jpg",
       posicao: "ZAGUEIRO",
       nome: "Tommy Smith",
       cidade: "Macclesfield, Inglaterra",
@@ -2359,7 +2274,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 012",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/finnSurman.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/surman.jpg",
       posicao: "ZAGUEIRO",
       nome: "Finn Surman",
       cidade: "Wellington, Nova Zelândia",
@@ -2371,7 +2286,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 013",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/lachlanBayliss.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/bayliss.jpg",
       posicao: "VOLANTE",
       nome: "Lachlan Bayliss",
       cidade: "Nova Zelândia",
@@ -2383,7 +2298,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 014",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/joeBell.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/bell.jpg",
       posicao: "VOLANTE",
       nome: "Joe Bell",
       cidade: "Bristol, Inglaterra",
@@ -2395,7 +2310,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 015",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/mattGarbett.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/garbett.jpg",
       posicao: "MEIA",
       nome: "Matt Garbett",
       cidade: "Wellington, Nova Zelândia",
@@ -2407,7 +2322,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 016",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/benOld.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/old.jpg",
       posicao: "MEIA",
       nome: "Ben Old",
       cidade: "Auckland, Nova Zelândia",
@@ -2419,7 +2334,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 017",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/alexRufer.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/rufer.jpg",
       posicao: "VOLANTE",
       nome: "Alex Rufer",
       cidade: "Wellington, Nova Zelândia",
@@ -2431,7 +2346,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 018",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/sarpreetSingh.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/singh.jpg",
       posicao: "MEIA",
       nome: "Sarpreet Singh",
       cidade: "Auckland, Nova Zelândia",
@@ -2443,7 +2358,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 019",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/markoStamenic.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/stame.webp",
       posicao: "VOLANTE",
       nome: "Marko Stamenic",
       cidade: "Wellington, Nova Zelândia",
@@ -2455,7 +2370,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 020",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/ryanThomas.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/thomas.jpg",
       posicao: "MEIA",
       nome: "Ryan Thomas",
       cidade: "Te Puke, Nova Zelândia",
@@ -2467,7 +2382,7 @@ const selecoes = {
 
     {
       codigo: "NZL - 021",
-      imagem: "../../assets/imgs/NovaZelandia/selecao/kostaBarbarouses.jpg",
+      imagem: "../../../assets/imgs/novazelandia/selecao/barba.jpg",
       posicao: "ATACANTE",
       nome: "Kosta Barbarouses",
       cidade: "Wellington, Nova Zelândia",

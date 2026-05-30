@@ -6,17 +6,26 @@
     <link
       rel="icon"
       sizes="16x16"
-      href="../../imgs/bandeiraPais/brasil.png"
+      href="../../assets/imgs/bandeiraPais/marrocos.png"
       type="image/png"
     />
     <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
 
-    <title>Brasil</title>
+    <title>Marrocos</title>
   </head>
 
   <body>
-    <div class="cabecario">
-      <p class="titulo">brasil</p>
+    <div
+      class="cabecario"
+      style="
+        background-image: url(&quot;../../../../../assets/imgs/bannersPais/marrocos.jpg&quot;);
+      "
+    >
+      <div id="menu">
+        <a href="../../../index.html">Copa</a>
+        <a href="../../grupos.html">Grupos</a>
+        <a href="../Brasil.html">Brasil</a>
+      </div>
     </div>
 
     <div class="corpo">
@@ -110,12 +119,12 @@
 
           <div class="imagens">
             <img
-              src="../../../assets/imgs/Brasil/cultura/torcida.webp"
+              src="../../../assets/imgs/marrocos/cultura/torcida.jpg"
               alt="Torcida brasileira"
             />
 
             <img
-              src="../../../assets/imgs/Brasil/cultura/torcida2.jpg"
+              src="../../../assets/imgs/marrocos/cultura/torcida2.webp"
               alt="Torcida brasileira"
             />
           </div>
@@ -189,11 +198,35 @@
           <div id="cardsCultura"></div>
         </div>
       </div>
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
     </div>
 
     <script src="../../../scripts/selecao.js"></script>
+
     <script src="../../../scripts/Pais.js"></script>
     <script src="../../../scripts/cultura.js"></script>
+
     <script>
       window.addEventListener("DOMContentLoaded", () => {
         renderizarJogadores("marrocos");

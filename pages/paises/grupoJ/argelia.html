@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>Argélia</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="../../../index.html">Copa</a>
+      <a href="../../grupos.html">Grupos</a>
+      <a href="../Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <p class="titulo">Argélia</p>
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            A Argélia tem uma trajetória marcada por momentos históricos na Copa
+            do Mundo, sendo uma das seleções africanas mais competitivas do
+            torneio. A equipe disputou várias edições do Mundial e ficou
+            conhecida por surpreender seleções tradicionais com atuações
+            competitivas e muita determinação. Mesmo sem chegar às fases finais,
+            a Argélia conquistou respeito internacional ao protagonizar partidas
+            memoráveis e representar o crescimento do futebol africano no
+            cenário mundial. Sua participação nas Copas simboliza momentos de
+            orgulho nacional e evolução esportiva.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                Argélia
+              </p>
+
+              <p class="texto-historia">
+                A melhor campanha da Argélia em uma Copa do Mundo aconteceu em
+                2014, quando a seleção alcançou as oitavas de final pela
+                primeira vez na história. Nas oitavas, enfrentou a forte
+                Alemanha e fez um jogo muito equilibrado, sendo eliminada apenas
+                na prorrogação por 2 a 1. Mesmo com a derrota, a campanha ficou
+                marcada como o maior feito da Argélia em Mundiais, consolidando
+                a geração de 2014 como uma das mais importantes do futebol do
+                país.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">1982</p>
+
+                <p class="texto-direita">
+                  A Argélia chocou o mundo ao vencer a Alemanha Ocidental por 2
+                  a 1 em sua estreia na Copa, uma das maiores zebras da história
+                  do torneio. Apesar da campanha forte, a seleção acabou
+                  eliminada após o polêmico jogo entre Alemanha Ocidental e
+                  Áustria, conhecido como “Vergonha de Gijón”, em que o
+                  resultado favoreceu as duas equipes europeias.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2014</p>
+
+                <p class="texto-direita">
+                  Naquele ano, a Argélia fez história ao alcançar as oitavas de
+                  final pela primeira vez, após uma campanha sólida na fase de
+                  grupos. A equipe empatou com a Rússia, venceu a Coreia do Sul
+                  por 4 a 2 e enfrentou a poderosa Alemanha nas oitavas,
+                  perdendo apenas na prorrogação por 2 a 1, em um jogo muito
+                  equilibrado e elogiado mundialmente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/argelia/cultura/torcidaAr.jpg"
+              alt="Torcida da Argélia"
+            />
+
+            <img
+              src="../../../assets/imgs/argelia/cultura/torcidaAr1.jpg"
+              alt="Torcida da Argélia"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                Nas oitavas de final, a Argélia enfrentou a Alemanha, futura
+                campeã do torneio, e fez um jogo muito equilibrado. A seleção
+                segurou o empate no tempo normal e só foi derrotada por 2 a 1 na
+                prorrogação, recebendo elogios pelo desempenho competitivo.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                Após fazer uma boa campanha na fase de grupos, a Argélia acabou
+                eliminada em uma partida polêmica entre Alemanha Ocidental e
+                Áustria
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                A Argélia fez história ao chegar pela primeira vez às oitavas de
+                final de uma Copa do Mundo. A equipe venceu a Coreia do Sul por
+                4 a 2 e empatou com a Rússia.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                Na Copa de 1982, a Argélia surpreendeu o mundo ao derrotar a
+                forte Alemanha Ocidental por 2 a 1 em sua estreia no torneio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("argelia");
+        renderizarCultura("argelia");
+      });
+    </script>
+  </body>
+</html>

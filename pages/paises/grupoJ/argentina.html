@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>Argentina</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="../../../index.html">Copa</a>
+      <a href="../../grupos.html">Grupos</a>
+      <a href="../Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <p class="titulo">Argentina</p>
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            A história do futebol africano na Copa do Mundo é uma jornada
+            fascinante de superação, talento puro, festas inesquecíveis nas
+            arquibancadas e momentos dramáticos que ficaram gravados na memória
+            de qualquer fã do esporte. O continente passou do status de "zebra"
+            nas primeiras edições para se tornar uma força temida e respeitada
+            globalmente.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                Argentina
+              </p>
+
+              <p class="texto-historia">
+                A melhor campanha da Argentina em uma Copa do Mundo aconteceu em
+                2022, quando a seleção conquistou seu terceiro título mundial em
+                uma das finais mais emocionantes da história. Após perder para a
+                Arábia Saudita na estreia, a Argentina se recuperou, eliminou
+                fortes adversários e venceu a França na final após um empate por
+                3 a 3, conquistando o título nos pênaltis.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">1986</p>
+
+                <p class="texto-direita">
+                  Em 1986, a Argentina conquistou sua segunda Copa do Mundo,
+                  realizada no México, com uma campanha liderada por Diego
+                  Maradona. O craque foi o grande destaque do torneio,
+                  protagonizando momentos inesquecíveis, como o jogo contra a
+                  Inglaterra nas quartas de final, em que marcou o polêmico gol
+                  da “Mão de Deus”.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2022</p>
+
+                <p class="texto-direita">
+                  Já em 2022, a Argentina viveu outro momento histórico ao
+                  conquistar sua terceira Copa do Mundo, no Catar. Mesmo após
+                  perder para a Arábia Saudita na estreia, a equipe se recuperou
+                  e fez uma campanha memorável, liderada por Lionel Messi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/argentina/cultura/torcidaA.webp"
+              alt="Torcida da Argentina"
+            />
+
+            <img
+              src="../../../assets/imgs/argentina/cultura/torcidaA1.jpg"
+              alt="Torcida da Argentina"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                A Argentina conquistou sua primeira Copa do Mundo jogando em
+                casa. Na final, venceu a Holanda por 3 a 1 na prorrogação,
+                conquistando um título histórico diante de sua torcida.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                Contra a Inglaterra, Maradona marcou um gol histórico após
+                driblar vários adversários desde o meio-campo, considerado por
+                muitos o gol mais bonito da história das Copas.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                Após uma grande campanha, a Argentina chegou à final da Copa de
+                2014, mas perdeu para a Alemanha por 1 a 0 na prorrogação,
+                ficando muito perto do título.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                A Argentina conquistou sua terceira Copa do Mundo ao vencer a
+                França nos pênaltis após um empate por 3 a 3 em uma final
+                histórica. O título marcou a consagração de Lionel Messi no
+                futebol mundial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("argentina");
+        renderizarCultura("argentina");
+      });
+    </script>
+  </body>
+</html>

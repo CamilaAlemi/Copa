@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>Coreia do Sul</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="../../../index.html">Copa</a>
+      <a href="../../grupos.html">Grupos</a>
+      <a href="../Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <p class="titulo">Coreia do Sul</p>
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            A história da Coreia do Sul nas Copas do Mundo é a mais vitoriosa e
+            consistente entre todas as seleções do continente asiático. Os
+            "Guerreiros Taegeuk" deixaram de ser coadjuvantes para se tornarem
+            uma presença carimbada e respeitada no torneio.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                Coreia do Sul
+              </p>
+
+              <p class="texto-historia">
+                A caminhada do "Milagre Vermelho" (como ficou conhecida em 2002)
+                só parou na semifinal diante da Alemanha. Além do resultado em
+                campo, aquela Copa ficou marcada pelo "Mar Vermelho": milhões de
+                torcedores lotando as ruas de Seul e de outras cidades em uma
+                das festas mais bonitas já vistas no futebol.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">2002</p>
+
+                <p class="texto-direita">
+                  O auge da Coreia do Sul em Copas do Mundo aconteceu em 2002,
+                  quando alcançou as semifinais em casa. Na estreia, venceu a
+                  Polônia por 2 a 0 diante de uma torcida em êxtase, empatou em
+                  1 a 1 com os EUA e derrotou Portugal por 1 a 0, garantindo a
+                  vaga nos mata-matas.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2010</p>
+
+                <p class="texto-direita">
+                  Apesar da eliminação dolorosa nas oitavas, o torneio foi
+                  considerado um sucesso absoluto na Coreia do Sul. Pela
+                  primeira vez na história, o país avançou de fase em uma Copa
+                  do Mundo realizada fora do continente asiático.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/coreiaS/cultura/torcidaC.jpg"
+              alt="Torcida da África do Sul"
+            />
+
+            <img
+              src="../../../assets/imgs/coreiaS/cultura/torcidaC1.jpg"
+              alt="Torcida da África do Sul"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                Apesar de quase 50 anos de participações, a Coreia do Sul só foi
+                quebrar o tabu e conquistar sua primeira vitória em Copas do
+                Mundo em 2002, quando derrotou a Polônia por 2 a 0 na estreia,
+                com gols de Hwang Sun-hong e Yoo Sang-chul.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                Oito anos depois, na África do Sul 2010, a seleção mostrou que
+                também era capaz de brilhar longe de casa ao alcançar as oitavas
+                de final pela primeira vez fora de seu território. Na ocasião,
+                estreou com vitória sobre a Grécia por 2 a 0, gols de Lee
+                Jung-soo e Park Ji-sung, foi derrotada em seguida pela Argentina
+                por 4 a 1, mas garantiu a classificação com um dramático empate
+                em 2 a 2 com a Nigéria.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                Na última rodada da fase de grupos na Rússia, a Coreia do Sul
+                protagonizou uma das maiores zebras estatísticas do futebol.
+                Mesmo já eliminada, a equipe venceu a então campeã mundial
+                Alemanha por 2 a 0.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                Nas oitavas de final, após um jogo extremamente tenso, Ahn
+                Jung-hwan marcou de cabeça na prorrogação, decretando a vitória
+                histórica por 2 a 1 e eliminando a poderosa Itália.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("coreiaS");
+        renderizarCultura("coreiaS");
+      });
+    </script>
+  </body>
+</html>

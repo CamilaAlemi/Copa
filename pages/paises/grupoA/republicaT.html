@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="../../assets/imgs/bandeiraPais/bandeiraBelgica.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="../../../styles/paisesStyles.css" />
+
+    <title>República Tcheca</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <a href="../../../index.html">Copa</a>
+      <a href="../../grupos.html">Grupos</a>
+      <a href="../Brasil.html">Brasil</a>
+    </div>
+
+    <div class="cabecario">
+      <p class="titulo" id="rep">República Tcheca</p>
+      <img src="" alt="" />
+    </div>
+
+    <div class="corpo">
+      <div class="menuP">
+        <button class="ativo" onclick="mostrarAba('copa', this)">
+          Na Copa
+        </button>
+        <button onclick="mostrarAba('cultura', this)">Cultura</button>
+      </div>
+      <!-- COPA -->
+
+      <div id="copa">
+        <div class="resumo">
+          <p class="textresumo">
+            A República Tcheca chega para a Copa do Mundo da FIFA™ vivendo um
+            momento de pura catarse e redenção histórica. Após amargar um
+            doloroso jejum de duas décadas longe dos holofotes do maior palco do
+            futebol mundial — já que sua última participação havia sido na
+            Alemanha, em 2006 —, o país finalmente carimbou seu passaporte para
+            o torneio de 2026. Esta será apenas a segunda vez que a nação
+            disputa o Mundial desde a dissolução da antiga Tchecoslováquia,
+            transformando a classificação em um feito monumental para toda uma
+            geração de torcedores que nunca tinha visto sua seleção brilhar na
+            era moderna da competição.
+          </p>
+        </div>
+
+        <div class="selecao">
+          <p class="titulo2">Seleção</p>
+
+          <div class="carrossel-wrapper">
+            <button class="seta seta-esq" onclick="scrollJogadores(-1)">
+              &#8592;
+            </button>
+
+            <div class="jogadores" id="jogadores"></div>
+
+            <button class="seta seta-dir" onclick="scrollJogadores(1)">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <!-- HISTÓRIA -->
+
+        <div class="container">
+          <div class="linha-topo" id="linhaTopo"></div>
+
+          <div class="historia-grid">
+            <div class="esquerda">
+              <p class="subtitulo">HISTÓRIA</p>
+
+              <p class="titulo-historia">
+                A melhor <span class="cor-pais">Copa</span><br />
+                do Mundo <data value=""></data><br />
+                República Tcheca
+              </p>
+
+              <p class="texto-historia">
+                a era de ouro remete ao ano de 1962 (sob a bandeira da
+                Tchecoslováquia). Aquela campanha no Chile foi uma aula de
+                disciplina, talento e resiliência. Liderados pelo genial Josef
+                Masopust, os tchecos desbancaram potências, encararam o lendário
+                Brasil de Garrincha na fase de grupos e na grande final, e
+                conquistaram um vice-campeonato mundial que até hoje é lembrado
+                como o ponto mais alto de sua rica trajetória esportiva.
+              </p>
+            </div>
+
+            <div class="linhaHistoria"></div>
+
+            <div class="direita">
+              <div class="bloco">
+                <p class="ano">1962</p>
+
+                <p class="texto-direita">
+                  Se o critério for o resultado puro e o nível do futebol
+                  apresentado, a Copa de 1962 foi o ápice. Com uma equipe
+                  extremamente disciplinada taticamente e liderada pelo craque
+                  Josef Masopust (que ganhou a Bola de Ouro da revista France
+                  Football naquele mesmo ano), a seleção surpreendeu o mundo.
+                </p>
+              </div>
+
+              <div class="bloco">
+                <p class="ano">2006</p>
+
+                <p class="texto-direita">
+                  Como nação independente (após a dissolução pacífica do país em
+                  1993), a República Tcheca teve imensa dificuldade para
+                  carimbar sua vaga no torneio, conseguindo se classificar pela
+                  primeira vez apenas em 2006. Embora o torneio tenha terminado
+                  de forma melancólica com a eliminação na primeira fase, a
+                  estreia daquela Copa foi o momento mais brilhante do país na
+                  era moderna
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="imagens">
+            <img
+              src="../../../assets/imgs/republicaC/cultura/republicaC1.jpg"
+              alt="Torcida da Bélgica"
+            />
+
+            <img
+              src="../../../assets/imgs/republicaC/cultura/torcidaR.webp"
+              alt="Torcida da Bélgica"
+            />
+          </div>
+
+          <div class="titulo-momentos">
+            <p>Momentos inesquecíveis</p>
+
+            <div class="linha"></div>
+          </div>
+
+          <div class="lista">
+            <div class="item">
+              <p class="numero-lista-brasil">01</p>
+
+              <p class="descricao">
+                A edição do República Tcheca 1986 representa uma lembrança
+                especial para a torcida, não apenas pelo calor humano que vinha
+                das arquibancadas, mas também pelo futebol apresentado sob o
+                comando de Bora Milutinovic.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">02</p>
+
+              <p class="descricao">
+                Em 1986, o República Tcheca voltou a sediar a Copa do Mundo e
+                repetiu a sua melhor campanha da história, chegando novamente às
+                quartas de final e terminando o torneio de forma invicta no
+                tempo regulamentar. O país assumiu a organização às pressas após
+                a Colômbia desistir por motivos financeiros.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">03</p>
+
+              <p class="descricao">
+                Após um longo e doloroso hiato de exatamente 20 anos longe dos
+                gramados do maior torneio do planeta, a República Tcheca
+                garantiu de forma dramática a sua classificação para a Copa do
+                Mundo de 2026 após vencer a Dinamarca na repescagem europeia.
+              </p>
+            </div>
+
+            <div class="item">
+              <p class="numero-lista-brasil">04</p>
+
+              <p class="descricao">
+                Em 12 de junho de 2006, os tchecos, que tinham uma geração
+                fantástica com Pavel Nedvěd, Petr Čech, Jan Koller e Milan
+                Baroš, deram um show e golearam os Estados Unidos por 3 a 0.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CULTURA -->
+
+      <div id="cultura" class="esconder">
+        <div class="cultura-container">
+          <p class="titulo-cultura">
+            Detalhes<br />
+            culturais do país
+          </p>
+
+          <div id="cardsCultura"></div>
+        </div>
+      </div>
+      
+      <div id="rodape">
+        <div class="conteudoRodape">
+          <div class="infoRodape">
+            <h3>Copa 2026</h3>
+            <p>
+              Projeto informativo sobre a Copa do Mundo FIFA 2026, reunindo
+              grupos, seleções, estádios e curiosidades.
+            </p>
+          </div>
+
+          <div class="linksRodape">
+            <h4>Navegação</h4>
+            <a href="../../index.html">Home</a>
+            <a href="../pages/grupos.html">Grupos</a>
+            <a href="pages/paises/Brasil.html">Seleções</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © 2026 Copa World • Desenvolvido por Sofia e Camila
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../scripts/selecaoAJ.js"></script>
+    <script src="../../../scripts/Pais.js"></script>
+    <script src="../../../scripts/culturaAJ.js"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderizarJogadores("republicaT");
+        renderizarCultura("republicaT");
+      });
+    </script>
+  </body>
+</html>
